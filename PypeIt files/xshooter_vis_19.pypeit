@@ -1,0 +1,51 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.12.1
+# UTC 2023-03-22T09:24:43.704
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = vlt_xshooter_vis
+
+# Setup
+setup read
+Setup A
+--:
+  dichroic: none
+  disperser: {angle: none, name: default}
+  slit: {decker: 0.9x11, slitlen: none, slitwid: none}
+'01': {binning: '2,1', det: 1, namp: 1}
+setup end
+
+# Data block 
+data read
+ path .
+                                  filename |                 frametype |         ra |       dec |       target | dispname |   decker | binning |             mjd | airmass | exptime | arm |   dither
+XSHOO.2017-08-19T15:55:14.764_binnned.fits |                  arc,tilt |       None |      None |    LAMP,WAVE |  default |  Pin_row |     2,1 | 57984.663365321 |    None |    10.0 | VIS |     None
+        XSHOO.2017-08-19T10:59:51.507.fits |                      bias |       None |      None |         BIAS |  default | 1.0x12.6 |     2,1 | 57984.458235031 |    None |     0.0 | VIS |     None
+        XSHOO.2017-08-19T11:01:27.085.fits |                      bias |       None |      None |         BIAS |  default | 1.0x12.6 |     2,1 | 57984.459341265 |    None |     0.0 | VIS |     None
+        XSHOO.2017-08-19T11:03:01.504.fits |                      bias |       None |      None |         BIAS |  default | 1.0x12.6 |     2,1 | 57984.460434069 |    None |     0.0 | VIS |     None
+        XSHOO.2017-08-19T11:04:33.702.fits |                      bias |       None |      None |         BIAS |  default | 1.0x12.6 |     2,1 | 57984.461501178 |    None |     0.0 | VIS |     None
+        XSHOO.2017-08-19T11:05:52.499.fits |                      bias |       None |      None |         BIAS |  default | 1.0x12.6 |     2,1 |  57984.46241318 |    None |     0.0 | VIS |     None
+        XSHOO.2017-08-19T11:16:01.043.fits |                      bias |       None |      None |         BIAS |  default | 1.0x12.6 |     2,1 | 57984.469456517 |    None |     0.0 | VIS |     None
+        XSHOO.2017-08-19T11:16:33.546.fits |                      bias |       None |      None |         BIAS |  default | 1.0x12.6 |     2,1 | 57984.469832708 |    None |     0.0 | VIS |     None
+        XSHOO.2017-08-19T11:17:04.449.fits |                      bias |       None |      None |         BIAS |  default | 1.0x12.6 |     2,1 | 57984.470190378 |    None |     0.0 | VIS |     None
+        XSHOO.2017-08-19T11:17:34.561.fits |                      bias |       None |      None |         BIAS |  default | 1.0x12.6 |     2,1 | 57984.470538905 |    None |     0.0 | VIS |     None
+        XSHOO.2017-08-19T11:18:04.964.fits |                      bias |       None |      None |         BIAS |  default | 1.0x12.6 |     2,1 | 57984.470890788 |    None |     0.0 | VIS |     None
+        XSHOO.2017-08-19T10:29:13.824.fits | pixelflat,illumflat,trace |       None |      None |    LAMP,FLAT |  default |   0.9x11 |     2,1 | 57984.436965548 |    None |   5.134 | VIS |     None
+        XSHOO.2017-08-19T10:30:13.489.fits | pixelflat,illumflat,trace |       None |      None |    LAMP,FLAT |  default |   0.9x11 |     2,1 | 57984.437656119 |    None |   5.134 | VIS |     None
+        XSHOO.2017-08-19T10:31:13.474.fits | pixelflat,illumflat,trace |       None |      None |    LAMP,FLAT |  default |   0.9x11 |     2,1 | 57984.438350393 |    None |   5.134 | VIS |     None
+        XSHOO.2017-08-19T10:32:11.239.fits | pixelflat,illumflat,trace |       None |      None |    LAMP,FLAT |  default |   0.9x11 |     2,1 | 57984.439018971 |    None |   5.134 | VIS |     None
+        XSHOO.2017-08-19T10:33:08.384.fits | pixelflat,illumflat,trace |       None |      None |    LAMP,FLAT |  default |   0.9x11 |     2,1 | 57984.439680372 |    None |   5.134 | VIS |     None
+        XSHOO.2017-08-19T13:54:01.436.fits | pixelflat,illumflat,trace |       None |      None |    LAMP,FLAT |  default |   0.9x11 |     2,1 | 57984.579183287 |    None | 11.8477 | VIS |     None
+        XSHOO.2017-08-19T13:54:33.629.fits | pixelflat,illumflat,trace |       None |      None |    LAMP,FLAT |  default |   0.9x11 |     2,1 | 57984.579555891 |    None | 11.8477 | VIS |     None
+        XSHOO.2017-08-19T13:55:05.561.fits | pixelflat,illumflat,trace |       None |      None |    LAMP,FLAT |  default |   0.9x11 |     2,1 | 57984.579925484 |    None | 11.8477 | VIS |     None
+        XSHOO.2017-08-19T13:55:37.535.fits | pixelflat,illumflat,trace |       None |      None |    LAMP,FLAT |  default |   0.9x11 |     2,1 |  57984.58029554 |    None | 11.8477 | VIS |     None
+        XSHOO.2017-08-19T13:56:09.557.fits | pixelflat,illumflat,trace |       None |      None |    LAMP,FLAT |  default |   0.9x11 |     2,1 | 57984.580666174 |    None | 11.8477 | VIS |     None
+        XSHOO.2017-08-18T23:57:12.391.fits |                   science | 197.451107 |   -23.381 |           GW |  default |   0.9x11 |     2,1 | 57983.998060079 |   1.667 |   600.0 | VIS | 2.659719
+        XSHOO.2017-08-19T00:22:44.658.fits |                  standard | 203.107749 | -47.27162 | STD,TELLURIC |  default |   0.9x11 |     2,1 | 57984.015794646 |   1.611 |    6.25 | VIS |      2.5
+        XSHOO.2017-08-19T00:23:39.403.fits |                  standard |  203.10571 | -47.27174 | STD,TELLURIC |  default |   0.9x11 |     2,1 | 57984.016428267 |   1.616 |    6.25 | VIS |     -2.5
+        XSHOO.2017-08-19T00:25:29.252.fits |                  standard | 203.107749 | -47.27162 | STD,TELLURIC |  default |   0.9x11 |     2,1 | 57984.017699677 |   1.628 |    6.25 | VIS |      2.5
+        XSHOO.2017-08-19T00:26:10.176.fits |                  standard |  203.10571 | -47.27174 | STD,TELLURIC |  default |   0.9x11 |     2,1 |  57984.01817333 |   1.632 |    6.25 | VIS |     -2.5
+        XSHOO.2017-08-19T02:52:05.896.fits |                  standard | 256.004241 | -25.69793 | STD,TELLURIC |  default |   0.9x11 |     2,1 | 57984.119512678 |   1.297 |     5.0 | VIS |      2.5
+        XSHOO.2017-08-19T02:52:44.679.fits |                  standard | 256.002715 | -25.69773 | STD,TELLURIC |  default |   0.9x11 |     2,1 |  57984.11996156 |     1.3 |     5.0 | VIS |     -2.5
+data end
+
