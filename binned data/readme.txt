@@ -1,6 +1,6 @@
-Rebinned data used to test PypeIt on GW170817  X-Shooter data, for different dates of observations 
+Rebinned data used to test PypeIt and PyReduce on GW170817  X-Shooter data, for different dates of observations 
 
-The rebinning script is can be found in this repository: rebinner.py
+The rebinning script can be found in this repository: rebinner.py
 
 All raw data can be found at:
 
