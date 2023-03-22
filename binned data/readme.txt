@@ -1,4 +1,4 @@
-Rebinned data used to test PypeIt and PyReduce on GW170817  X-Shooter data, for different dates of observations. 
+Rebinned data used to test PypeIt and PyReduce on GW170817  X-Shooter data, for different dates of observation. 
 
 The rebinning script can be found in this repository, search for rebinner.py
 
