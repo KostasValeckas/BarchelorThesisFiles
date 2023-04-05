@@ -1,0 +1,53 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.12.1
+# UTC 2023-03-31T10:29:18.656
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = vlt_xshooter_vis
+
+# Setup
+setup read
+Setup B:
+  arm: VIS
+setup end
+
+# Data block 
+data read
+ path .
+                          filename |                 frametype |         ra |       dec |        target | dispname |   decker | binning |             mjd | airmass | exptime | arm |    dither | calib | comb_id | bkg_id
+XSHOO.2017-08-18T17:31:57.362.fits |                  arc,tilt |       None |      None |     LAMP,WAVE |  default |  Pin_row |     1,1 | 57983.730525021 |    None |    10.0 | VIS |      None |   all |      -1 |     -1
+#
+#
+XSHOO.2017-08-18T11:25:58.809.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.476375099 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T11:28:48.803.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.478342634 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T11:31:39.609.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.480319546 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T11:34:28.704.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.482276666 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T11:37:16.709.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.484221168 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T21:21:51.517.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.890179591 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T21:24:42.342.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.892156736 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T21:27:31.537.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.894115014 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T21:30:19.632.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.896060558 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T21:33:10.468.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.898037818 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T21:47:40.706.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.908110023 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T21:48:31.681.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.908700007 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T21:49:22.575.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.909289064 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T21:50:13.460.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.909878007 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T21:51:04.994.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57983.910474473 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-19T11:12:08.842.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57984.466769008 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-19T11:12:57.497.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57984.467332137 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-19T11:13:48.681.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57984.467924552 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-19T11:14:31.575.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57984.468421008 |    None |     0.0 | VIS |      None |     2 |      -1 |     -1
+#XSHOO.2017-08-19T11:15:17.159.fits |                   #   bias |       None |      None |          BIAS |  #default | 1.0x12.6 |     1,1 | 57984.468948603 |    #None |     0.0 | VIS |      None |     2 |      -1 |   #  -1
+#
+#
+XSHOO.2017-08-18T14:28:36.337.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   5.0x11 |     1,1 |  57983.60319834 |    None |  1.8482 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T14:30:15.985.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   5.0x11 |     1,1 | 57983.604351684 |    None |  1.8482 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T14:31:55.875.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   5.0x11 |     1,1 | 57983.605507807 |    None |  1.8482 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T14:33:35.884.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   5.0x11 |     1,1 | 57983.606665318 |    None |  1.8482 | VIS |      None |     2 |      -1 |     -1
+XSHOO.2017-08-18T14:35:16.172.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   5.0x11 |     1,1 | 57983.607826071 |    None |  1.8482 | VIS |      None |     2 |      -1 |     -1
+#
+#
+XSHOO.2017-08-18T23:05:17.203.fits |                  standard | 245.890861 | -39.22883 |      STD,FLUX |  default |   5.0x11 |     1,1 | 57983.962004664 |   1.034 |   120.0 | VIS |       2.5 |     2 |       3 |     4
+XSHOO.2017-08-18T23:09:38.386.fits |                  standard | 245.891286 | -39.23018 |      STD,FLUX |  default |   5.0x11 |     1,1 | 57983.965027618 |   1.034 |   120.0 | VIS |      -2.5 |     2 |       4 |     3
+data end
+
