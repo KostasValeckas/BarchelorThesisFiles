@@ -1,4 +1,4 @@
-PypeIt setup files used to test PypeIt on GW170817  X-Shooter data, for different dates of observation.
+PypeIt setup files used to test PypeIt on GW170817 and GRB230325A X-Shooter data.
 
 The rebinned data are made available in this repository, in the 'binned data' directory.
 
