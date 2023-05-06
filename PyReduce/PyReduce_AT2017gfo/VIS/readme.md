@@ -12,7 +12,7 @@ https://pyreduce-astro.readthedocs.io/en/latest/wavecal_linelist.html
 DOES NOT WORK, only provided for refference 
 
 ### OUTPUT:
-Resuts obtained.
+Results obtained.
 
 ### OutputPlots:
 Plots returned by the software while running the reduction.
