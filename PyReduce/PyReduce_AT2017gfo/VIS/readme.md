@@ -25,7 +25,7 @@ Use this TOGETHER with the data listed in VISdataOnly1x2Bin.csv
 Logs produced while running the software.
 
 ### VISdataOnly1x2Bin.csv
-NOT ALL PROVIDED RAW DATA was used in this reduction. This is the list of the files used (TOGETHER with files in the 'ReBinnedData' directory).
+NOT ALL PROVIDED RAW DATA were used in this reduction. This is the list of the files used (TOGETHER with files in the 'ReBinnedData' directory).
 
 ### x_shooter_vis_AT2017gfo.py
 Run this script to excecute the reduction.
