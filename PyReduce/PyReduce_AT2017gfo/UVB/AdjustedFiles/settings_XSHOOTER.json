@@ -1,0 +1,98 @@
+{
+    "__instrument__": "XSHOOTER",
+    "bias": {
+        "degree": 0
+    },
+    "flat":{
+        "bias_scaling": "exposure_time"
+    },
+    "orders": {
+        "degree": 5,
+        "degree_before_merge": 2,
+        "bias_scaling": "exposure_time",
+        "filter_size": 100,
+        "min_cluster": 200,
+        "noise": 12,
+        "border_width": 50,
+        "auto_merge_threshold": 0.7,
+        "merge_min_threshold": 0.4,
+        "manual": true,
+        "min_width": 0
+    },
+    "scatter": {
+        "bias_scaling": "exposure_time",
+        "extraction_width": 0.45,
+        "border_width": 20
+    },
+    "norm_flat": {
+        "smooth_slitfunction": 1e3,
+        "smooth_spectrum": 1e-7,
+        "extraction_width": 0.5,
+        "oversampling": 12,
+        "swath_width": 200,
+        "threshold": 1000
+    },
+    "curvature": {
+        "bias_scaling": "exposure_time",
+        "dimensionality": "2D",
+        "curv_degree": 1,
+        "extraction_method": "arc",
+        "extraction_cutoff": 20,
+        "extraction_width": 0.20,
+        "peak_threshold": 10,
+        "peak_width": 1,
+        "window_width": 4,
+        "degree": [
+            1,
+            3
+        ]
+    },
+    "wavecal_master": {
+        "extraction_method": "arc",
+        "bias_scaling": "exposure_time",
+        "extraction_width": 0.5,
+        "extraction_cutoff": 10
+    },
+    "wavecal_init": {
+        "degree": 2,
+        "element": "thar",
+        "medium": "vac",
+        "wave_delta": 2000,
+        "nwalkers": 100,
+        "steps": 50000,
+        "resid_delta": 1000,
+        "cutoff": 0.001,
+        "smoothing": 1,
+        "plot": true,
+        "plot_title": "Wavelength Calibration Initial"
+    },
+    "wavecal": {
+        "threshold": 100,
+        "iterations": 4,
+        "dimensionality": "2D",
+        "degree": [
+            7,
+            9
+        ],
+        "manual": false,
+        "shift_window": 0
+    },
+    "freq_comb_master": {
+        "bias_scaling": "exposure_time"
+    },
+    "freq_comb": {
+        "dimensionality": "2D",
+        "degree": [
+            6,
+            6
+        ]
+    },
+    "science": {
+        "bias_scaling": "exposure_time",
+        "oversampling": 10,
+        "extraction_width": 0.45,
+        "swath_width": 400,
+        "smooth_slitfunction": 2,
+        "smooth_spectrum": 0.5e-5
+    }
+}
