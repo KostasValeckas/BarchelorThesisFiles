@@ -1,0 +1,48 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.12.2
+# UTC 2023-05-16T03:45:08.685
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = vlt_xshooter_uvb
+
+# Setup
+setup read
+Setup A:
+  arm: UVB
+setup end
+
+# Data block 
+data read
+ path ..
+                               filename |                 frametype |         ra |       dec |                 target | dispname |   decker | binning |             mjd | airmass | exptime | arm |    dither | calib | comb_id | bkg_id
+#     XSHOO.2017-08-18T17:31:52.211.fits |                  arc,tilt |       None |      None |              LAMP,WAVE |  default |  Pin_row |     1,1 | 57983.730465409 |    None |    15.0 | UVB |      None |     1 |      -1 |     -1
+          XSHOO.2017-08-19T16:14:23.116.fits |                  arc,tilt |       None |      None |              LAMP,WAVE |  default |   1.0x11 |     1,1 | 57984.676656444 |    None |    30.0 | UVB |      None |     1 |      -1 |     -1
+####################
+     XSHOO.2017-08-18T21:34:46.596.fits |                      bias |       None |      None |                   BIAS |  default | 1.0x12.6 |     2,1 | 57983.899150419 |    None |     0.0 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T21:36:19.284.fits |                      bias |       None |      None |                   BIAS |  default | 1.0x12.6 |     2,1 |   57983.9002232 |    None |     0.0 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T21:37:52.583.fits |                      bias |       None |      None |                   BIAS |  default | 1.0x12.6 |     2,1 | 57983.901303043 |    None |     0.0 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T21:39:24.501.fits |                      bias |       None |      None |                   BIAS |  default | 1.0x12.6 |     2,1 | 57983.902366912 |    None |     0.0 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T21:40:58.590.fits |                      bias |       None |      None |                   BIAS |  default | 1.0x12.6 |     2,1 | 57983.903455899 |    None |     0.0 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:56:52.071.fits |                      bias |       None |      None |                   BIAS |  default | 1.0x12.6 |     2,1 | 57984.456158227 |    None |     0.0 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:59:09.613.fits |                      bias |       None |      None |                   BIAS |  default | 1.0x12.6 |     2,1 |  57984.45775015 |    None |     0.0 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T11:00:43.591.fits |                      bias |       None |      None |                   BIAS |  default | 1.0x12.6 |     2,1 | 57984.458837862 |    None |     0.0 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T11:02:19.610.fits |                      bias |       None |      None |                   BIAS |  default | 1.0x12.6 |     2,1 | 57984.459949188 |    None |     0.0 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T11:03:51.258.fits |                      bias |       None |      None |                   BIAS |  default | 1.0x12.6 |     2,1 |  57984.46100993 |    None |     0.0 | UVB |      None |     1 |      -1 |     -1
+####################
+     XSHOO.2017-08-19T10:21:05.270.fits | pixelflat,illumflat,trace |       None |      None |             LAMP,DFLAT |  default |   1.0x11 |     2,1 | 57984.431310995 |    None |   1.484 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:21:50.504.fits | pixelflat,illumflat,trace |       None |      None |             LAMP,DFLAT |  default |   1.0x11 |     2,1 | 57984.431834537 |    None |   1.484 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:22:34.398.fits | pixelflat,illumflat,trace |       None |      None |             LAMP,DFLAT |  default |   1.0x11 |     2,1 | 57984.432342568 |    None |   1.484 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:23:19.622.fits | pixelflat,illumflat,trace |       None |      None |             LAMP,DFLAT |  default |   1.0x11 |     2,1 | 57984.432865995 |    None |   1.484 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:24:05.586.fits | pixelflat,illumflat,trace |       None |      None |             LAMP,DFLAT |  default |   1.0x11 |     2,1 | 57984.433397986 |    None |   1.484 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:25:15.822.fits | pixelflat,illumflat,trace |       None |      None |             LAMP,QFLAT |  default |   1.0x11 |     2,1 | 57984.434210905 |    None |     3.7 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:26:03.586.fits | pixelflat,illumflat,trace |       None |      None |             LAMP,QFLAT |  default |   1.0x11 |     2,1 | 57984.434763732 |    None |     3.7 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:26:49.250.fits | pixelflat,illumflat,trace |       None |      None |             LAMP,QFLAT |  default |   1.0x11 |     2,1 | 57984.435292251 |    None |     3.7 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:27:36.585.fits | pixelflat,illumflat,trace |       None |      None |             LAMP,QFLAT |  default |   1.0x11 |     2,1 | 57984.435840101 |    None |     3.7 | UVB |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:28:24.509.fits | pixelflat,illumflat,trace |       None |      None |             LAMP,QFLAT |  default |   1.0x11 |     2,1 | 57984.436394779 |    None |     3.7 | UVB |      None |     1 |      -1 |     -1
+####################
+     XSHOO.2017-08-18T23:22:16.384.fits |                   science | 197.450998 | -23.38098 |                     GW |  default |   1.0x11 |     2,1 | 57983.973800739 |   1.422 |   600.0 | UVB |  2.292615 |     1 |       1 |      2
+     XSHOO.2017-08-18T23:33:52.306.fits |                   science | 197.449652 | -23.38071 |                     GW |  default |   1.0x11 |     2,1 | 57983.981855393 |   1.492 |   600.0 | UVB | -2.255041 |     1 |       2 |      1
+     XSHOO.2017-08-18T23:45:30.358.fits |                   science | 197.449612 | -23.38071 |                     GW |  default |   1.0x11 |     2,1 | 57983.989934701 |   1.573 |   600.0 | UVB | -2.388404 |     1 |       2 |      1
+     XSHOO.2017-08-18T23:57:07.190.fits |                   science | 197.451107 |   -23.381 |                     GW |  default |   1.0x11 |     2,1 |  57983.99799989 |   1.666 |   600.0 | UVB |  2.659719 |     1 |       1 |      2
+data end
+
