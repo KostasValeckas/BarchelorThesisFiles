@@ -1,0 +1,49 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.12.2
+# UTC 2023-05-15T05:47:46.231
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = vlt_xshooter_nir
+
+# Setup
+setup read
+Setup A:
+  arm: NIR
+setup end
+
+# Data block 
+data read
+ path ..
+                               filename |       frametype |         ra |       dec |  target | dispname |   decker | binning |            mjd | airmass | exptime | arm |    dither | calib | comb_id | bkg_id
+     XSHOO.2017-08-18T16:09:15.445.fits |    lampoffflats |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57983.67309543 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T16:09:49.660.fits |    lampoffflats |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57983.67349144 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T16:10:24.569.fits |    lampoffflats |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57983.67389547 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T16:10:58.785.fits |    lampoffflats |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57983.67429149 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T16:11:32.999.fits |    lampoffflats |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57983.67468749 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:16:12.050.fits |    lampoffflats |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57984.42791725 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:16:46.964.fits |    lampoffflats |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57984.42832134 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:17:19.099.fits |    lampoffflats |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57984.42869328 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:17:54.008.fits |    lampoffflats |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57984.42909732 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:18:29.610.fits |    lampoffflats |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57984.42950937 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+##################
+     XSHOO.2017-08-18T16:09:00.073.fits | pixelflat,trace |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57983.67291751 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T16:09:32.206.fits | pixelflat,trace |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57983.67328942 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T16:10:07.113.fits | pixelflat,trace |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57983.67369344 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T16:10:41.330.fits | pixelflat,trace |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57983.67408947 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T16:11:15.545.fits | pixelflat,trace |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57983.67448548 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:15:56.677.fits | pixelflat,trace |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57984.42773932 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:16:28.818.fits | pixelflat,trace |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57984.42811132 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:17:03.726.fits | pixelflat,trace |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57984.42851535 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:17:35.860.fits | pixelflat,trace |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57984.42888727 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-19T10:18:11.462.fits | pixelflat,trace |       None |      None |LAMP,FLAT|  default |   0.9x11 |     1,1 | 57984.42929933 |    None |    8.32 | NIR |      None |     1 |      -1 |     -1
+###################
+     XSHOO.2017-08-18T23:22:25.262.fits |arc,tilt,science | 197.450998 | -23.38098 |      GW |  default |   0.9x11 |     1,1 | 57983.97390349 |   1.423 |   600.0 | NIR |  2.292615 |     1 |       1 |      2
+     XSHOO.2017-08-18T23:34:00.476.fits |arc,tilt,science | 197.449652 | -23.38071 |      GW |  default |   0.9x11 |     1,1 | 57983.98194995 |   1.493 |   600.0 | NIR | -2.255041 |     1 |       2 |      1
+     XSHOO.2017-08-18T23:45:38.350.fits |arc,tilt,science | 197.449612 | -23.38071 |      GW |  default |   0.9x11 |     1,1 |  57983.9900272 |   1.574 |   600.0 | NIR | -2.388404 |     1 |       2 |      1
+     XSHOO.2017-08-18T23:57:15.560.fits |arc,tilt,science | 197.451107 |   -23.381 |      GW |  default |   0.9x11 |     1,1 | 57983.99809676 |   1.667 |   600.0 | NIR |  2.659719 |     1 |       1 |      2
+###################
+     XSHOO.2017-08-18T11:52:30.158.fits |            dark |       None |      None |    DARK |  default |    Blind |     1,1 |  57983.4947935 |    None |   600.0 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T12:02:38.914.fits |            dark |       None |      None |    DARK |  default |    Blind |     1,1 | 57983.50183928 |    None |   600.0 | NIR |      None |     1 |      -1 |     -1
+     XSHOO.2017-08-18T12:12:45.678.fits |            dark |       None |      None |    DARK |  default |    Blind |     1,1 | 57983.50886201 |    None |   600.0 | NIR |      None |     1 |      -1 |     -1
+data end
+
