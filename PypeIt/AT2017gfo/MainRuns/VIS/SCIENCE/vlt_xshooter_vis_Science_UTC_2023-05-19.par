@@ -628,7 +628,7 @@
         find_trim_edge = 3, 3
         find_maxdev = 2.0
         find_extrap_npoly = 3
-        maxnumber_sci = 2
+        maxnumber_sci = 1
         maxnumber_std = 1
         find_fwhm = 5.0
         ech_find_max_snr = 1.0
