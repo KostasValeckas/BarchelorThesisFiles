@@ -1,10 +1,10 @@
-The two '.pdf' files are quality assesment of the zeropoint and spectroscopic throughput
+The two '.pdf' files are quality assesment of the zeropoint and spectroscopic throughput.
 
-The sped1d file is a spectrum of a spectrophotometric standard star produced in the main run
+The sped1d file is a spectrum of a spectrophotometric standard star produced in the main run.
 
-The '.par' file is generated automatically when running the algorithm
+The '.par' file is generated automatically when running the algorithm.
 
-The sens file is the sensitivity function
+The sens file is the sensitivity function.
 
 ### to create the sensitivity function, excecute:
 
