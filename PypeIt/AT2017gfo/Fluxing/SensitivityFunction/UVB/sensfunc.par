@@ -4,7 +4,7 @@
     samp_fact = 1.5
     multi_spec_det = None
     algorithm = UVIS
-    polyorder = 5
+    polyorder = 3
     star_type = None
     star_mag = None
     star_ra = None
