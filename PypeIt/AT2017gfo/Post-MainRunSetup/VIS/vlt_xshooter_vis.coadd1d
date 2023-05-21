@@ -1,0 +1,19 @@
+# Auto-generated Coadd1D input file using PypeIt version: 1.12.2
+# UTC 2023-05-20T17:41:34.339
+
+# User-defined execution parameters
+[coadd1d]
+  coaddfile = YOUR_OUTPUT_FILE_NAME  # Please set your output file name
+  sensfuncfile = YOUR_SENSFUNC_FILE  # Please set your SENSFUNC file name. Only required for Echelle
+  wave_method = velocity  # creates a uniformly space grid in log10(lambda)
+# This file includes all extracted objects. You need to figure out which object you want to 
+# coadd before running pypeit_coadd_1dspec!!!
+
+# Data block 
+coadd1d read
+ path .
+                                                                     filename |        obj_id
+spec1d_XSHOO.2017-08-18T23:22:22.174-GW_XShooter_VIS_20170818T232222.174.fits | OBJ0691-DET01
+spec1d_XSHOO.2017-08-18T23:33:57.486-GW_XShooter_VIS_20170818T233357.486.fits | OBJ0243-DET01
+coadd1d end
+

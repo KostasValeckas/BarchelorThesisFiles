@@ -1,6 +1,6 @@
 # code used to rebin X - Shooter data
 # I DID NOT ENGINEER THIS CODE MYSELF, 
-# I GOT IT PROVIDED FROM MY THESIS SUPERVISOR: Johan Peter Uldall Fynbo 
+# I GOT IT PROVIDED FROM MY THESIS SUPERVISOR: Johan Peter Uldall Fynbo (NBI) 
 
 from astropy.io import fits                                                                                                                
 import numpy as np
