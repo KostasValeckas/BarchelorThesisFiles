@@ -40,5 +40,5 @@ ax.axes.set_ylim(-1E-16,0.2E-15)
 ax.set_xlabel("Observed Wavelength (Å)",fontsize=12)
 ax.set_ylabel("Flux (erg/s/cm²/Å))",fontsize=12)
 
-plt.savefig("./AT2017gfoNonTelluricCorrected.png",bbox_inches="tight",facecolor="white")
+plt.savefig("./AT2017gfoWithoutTelluricCorrection.png",bbox_inches="tight",facecolor="white")
 plt.show()
