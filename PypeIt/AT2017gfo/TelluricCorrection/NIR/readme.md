@@ -1,5 +1,7 @@
 ### The telluric correction is excecuted by: 
 
+AT2017gfoNIR.fits is the flux calibrated, co-added spectrum
+
 pypeit_tellfit --objmodel poly AT2017gfoNIR.fits
 
 The resulting files are  AT2017gfoNIR_tellcorr.fits (the corrected spectrum) and  AT2017gfoNIR_tellmodel.fits (the telluric model).

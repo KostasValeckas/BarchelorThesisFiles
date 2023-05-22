@@ -2,6 +2,8 @@
 
 pypeit_tellfit --objmodel poly AT2017gfoVIS.fits
 
+AT2017gfoVIS.fits is the flux calibrated, co-added spectrum
+
 The resulting files are  AT2017gfoVIS_tellcorr.fits (the corrected spectrum) and  AT2017gfoVIS_tellmodel.fits (the telluric model).
 
 'telluric.par' is automatically created in excecution, and holds the default parameters used. 
