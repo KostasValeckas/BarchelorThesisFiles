@@ -1,0 +1,1 @@
+### The files provided in this directory are used to create the setup files used when applying the sensitivity function (flux calibration) and when co-adding the 1d science spectra. A setup file for applying telluric corrections is also produced, but not used in the particular case of this thesis.
