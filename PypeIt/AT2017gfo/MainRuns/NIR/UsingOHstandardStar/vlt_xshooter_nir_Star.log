@@ -1,0 +1,1773 @@
+------------------------------------------------------
+
+This log was generated with version 1.12.2 of PypeIt
+
+You are using scipy version=1.10.1
+You are using numpy version=1.24.3
+You are using astropy version=5.2.2
+
+------------------------------------------------------
+
+[INFO]    :: inputfiles.py 117 from_file() - Loading the reduction file
+[INFO]    :: inputfiles.py 159 from_file() - PypeIt input file loaded successfully.
+[INFO]    :: inputfiles.py 500 vet() - PypeIt file successfully vetted.
+[INFO]    :: pypeit.py 104 __init__() - Loaded spectrograph vlt_xshooter_nir
+[INFO]    :: pypeit.py 120 __init__() - Setting configuration-specific parameters using XSHOO.2017-08-18T23:09:41.465.fits
+[INFO]    :: pypeit.py 135 __init__() - Built full PypeIt parameter set.
+[INFO]    :: pypeit.py 150 __init__() - Compiling metadata
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T14:10:56.018.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T14:11:13.011.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T14:11:34.529.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T14:11:55.984.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T14:12:17.443.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T14:10:44.914.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T14:11:04.154.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T14:11:23.368.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T14:11:44.883.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T14:12:06.339.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T11:52:30.158.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T12:02:38.914.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T12:12:45.678.fits
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (ra), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dec), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (airmass), but we'll try to continue on..
+[WARNING] :: spectrograph.py 1290 get_meta_value() - Bad Header key (dither), but we'll try to continue on..
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T23:05:20.558.fits
+[INFO]    :: metadata.py 199 _build() - Adding metadata for XSHOO.2017-08-18T23:09:41.465.fits
+[WARNING] :: metadata.py 1279 get_frame_types() - Removing existing frametype and framebit columns.
+[INFO]    :: metadata.py 1286 get_frame_types() - Typing files
+[INFO]    :: metadata.py 1296 get_frame_types() - Using user-provided frame types.
+[INFO]    :: metadata.py 687 unique_configurations() - Setup column already set.  Finding unique configurations.
+[INFO]    :: metadata.py 698 unique_configurations() - Found 1 unique configurations.
+[INFO]    :: calibrations.py 1041 check_for_calibs() - Congrats!!  You passed the calibrations inspection!!
+[INFO]    :: pypeit.py 184 __init__() - Setting reduction path to /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines
+[INFO]    :: pypeit.py 185 __init__() - Master calibration data output to: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters
+[INFO]    :: pypeit.py 186 __init__() - Science data output to: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Science
+[INFO]    :: pypeit.py 187 __init__() - Quality assessment plots output to: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/QA
+[INFO]    :: pypeit.py 394 reduce_all() - Found 2 standard frames to reduce.
+[INFO]    :: pypeit.py 424 reduce_all() - Found 2 standard frames in calibration group 2.
+[INFO]    :: pypeit.py 572 reduce_exposure() - Reducing target STD,FLUX
+             Combining frames:
+             XSHOO.2017-08-18T23:05:20.558.fits
+             
+[INFO]    :: pypeit.py 578 reduce_exposure() - 
+             Using background from frames:
+             XSHOO.2017-08-18T23:09:41.465.fits
+             
+[INFO]    :: pypeit.py 584 reduce_exposure() - Detectors to work on: [1]
+[INFO]    :: pypeit.py 589 reduce_exposure() - Reducing detector 1
+[INFO]    :: pypeit.py 719 calib_one() - Building/loading calibrations for detector 1
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T11:52:30.158.fits.
+[INFO]    :: procimg.py 168 lacosmic() - Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: procimg.py 216 lacosmic() - Convolving image with Laplacian kernel
+[INFO]    :: procimg.py 227 lacosmic() - Found 29540 candidate cosmic-ray pixels
+[INFO]    :: procimg.py 233 lacosmic() - Reduced to 27405 candidates after excluding known bad pixels.
+[INFO]    :: procimg.py 244 lacosmic() - Reduced to 25239 candidates after excluding compact objects.
+[INFO]    :: procimg.py 248 lacosmic() - Finding neighboring pixels affected by cosmic rays
+[INFO]    :: procimg.py 258 lacosmic() - Changed to 35118 candidates after evaluating neighboring pixels.
+[INFO]    :: procimg.py 264 lacosmic() - Reduced to 33040 candidates after excluding known bad pixels.
+[INFO]    :: procimg.py 269 lacosmic() - Iteration 1: 33040 pixels identified as cosmic rays (33040 are new)
+[INFO]    :: procimg.py 298 lacosmic() - 27973 pixels identified as cosmic rays after removing false positives
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T12:02:38.914.fits.
+[INFO]    :: procimg.py 168 lacosmic() - Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: procimg.py 216 lacosmic() - Convolving image with Laplacian kernel
+[INFO]    :: procimg.py 227 lacosmic() - Found 29203 candidate cosmic-ray pixels
+[INFO]    :: procimg.py 233 lacosmic() - Reduced to 27076 candidates after excluding known bad pixels.
+[INFO]    :: procimg.py 244 lacosmic() - Reduced to 24891 candidates after excluding compact objects.
+[INFO]    :: procimg.py 248 lacosmic() - Finding neighboring pixels affected by cosmic rays
+[INFO]    :: procimg.py 258 lacosmic() - Changed to 35024 candidates after evaluating neighboring pixels.
+[INFO]    :: procimg.py 264 lacosmic() - Reduced to 32953 candidates after excluding known bad pixels.
+[INFO]    :: procimg.py 269 lacosmic() - Iteration 1: 32953 pixels identified as cosmic rays (32953 are new)
+[INFO]    :: procimg.py 298 lacosmic() - 27669 pixels identified as cosmic rays after removing false positives
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T12:12:45.678.fits.
+[INFO]    :: procimg.py 168 lacosmic() - Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: procimg.py 216 lacosmic() - Convolving image with Laplacian kernel
+[INFO]    :: procimg.py 227 lacosmic() - Found 28992 candidate cosmic-ray pixels
+[INFO]    :: procimg.py 233 lacosmic() - Reduced to 26854 candidates after excluding known bad pixels.
+[INFO]    :: procimg.py 244 lacosmic() - Reduced to 24735 candidates after excluding compact objects.
+[INFO]    :: procimg.py 248 lacosmic() - Finding neighboring pixels affected by cosmic rays
+[INFO]    :: procimg.py 258 lacosmic() - Changed to 34728 candidates after evaluating neighboring pixels.
+[INFO]    :: procimg.py 264 lacosmic() - Reduced to 32647 candidates after excluding known bad pixels.
+[INFO]    :: procimg.py 269 lacosmic() - Iteration 1: 32647 pixels identified as cosmic rays (32647 are new)
+[INFO]    :: procimg.py 298 lacosmic() - 27359 pixels identified as cosmic rays after removing false positives
+[INFO]    :: io.py 648 write_to_fits() - File written to: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterDark_A_2_DET01.fits
+[INFO]    :: calibrations.py 695 get_slits() - Creating Master Edges using files: 
+             calibrations.py 697 get_slits() - XSHOO.2017-08-18T14:10:44.914.fits
+             calibrations.py 697 get_slits() - XSHOO.2017-08-18T14:11:04.154.fits
+             calibrations.py 697 get_slits() - XSHOO.2017-08-18T14:11:23.368.fits
+             calibrations.py 697 get_slits() - XSHOO.2017-08-18T14:11:44.883.fits
+             calibrations.py 697 get_slits() - XSHOO.2017-08-18T14:12:06.339.fits
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:10:44.914.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:11:04.154.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:11:23.368.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:11:44.883.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:12:06.339.fits.
+[INFO]    :: calibrations.py 704 get_slits() - Subtracting lamp off flats using files: 
+             calibrations.py 706 get_slits() - XSHOO.2017-08-18T14:10:56.018.fits
+             calibrations.py 706 get_slits() - XSHOO.2017-08-18T14:11:13.011.fits
+             calibrations.py 706 get_slits() - XSHOO.2017-08-18T14:11:34.529.fits
+             calibrations.py 706 get_slits() - XSHOO.2017-08-18T14:11:55.984.fits
+             calibrations.py 706 get_slits() - XSHOO.2017-08-18T14:12:17.443.fits
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:10:56.018.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:11:13.011.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:11:34.529.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:11:55.984.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:12:17.443.fits.
+[INFO]    :: edgetrace.py 939 initial_trace() - --------------------------------------------------
+[INFO]    :: edgetrace.py 940 initial_trace() -              Initialize Edge Tracing              
+[INFO]    :: edgetrace.py 941 initial_trace() - --------------------------------------------------
+[INFO]    :: trace.py 87 detect_slit_edges() - Detecting slit edges in the trace image
+[INFO]    :: trace.py 130 detect_slit_edges() - Applying bad pixel mask
+[INFO]    :: trace.py 171 identify_traces() - Finding unique traces among detected edges.
+[INFO]    :: edgetrace.py 1813 centroid_refine() - --------------------------------------------------
+[INFO]    :: edgetrace.py 1814 centroid_refine() -              Edge Centroid Refinement             
+[INFO]    :: edgetrace.py 1815 centroid_refine() - --------------------------------------------------
+[INFO]    :: edgetrace.py 1816 centroid_refine() - Width of window for centroiding the edges: 6.0
+[INFO]    :: edgetrace.py 1817 centroid_refine() - Max shift between spectrally adjacent pixels: 0.50
+[INFO]    :: edgetrace.py 1818 centroid_refine() - Max centroid error: None
+[INFO]    :: edgetrace.py 1819 centroid_refine() - Minimum spectral pixels for a valid trace: 674.85
+[INFO]    :: edgetrace.py 1858 centroid_refine() - Found 19 left edge trace(s) to refine
+[INFO]    :: edgetrace.py 1878 centroid_refine() - Following 18 left edge(s) from row 759; 1 trace(s) remain.
+[INFO]    :: edgetrace.py 1878 centroid_refine() - Following 1 left edge(s) from row 46; 0 trace(s) remain.
+[INFO]    :: edgetrace.py 2055 check_traces() - Tolerance for finding repeat traces: 3.0
+[INFO]    :: edgetrace.py 2076 check_traces() - Minimum spectral length of any trace (pixels): 674.85
+[INFO]    :: edgetrace.py 2081 check_traces() - Found 2 short trace(s).
+[INFO]    :: edgetrace.py 2117 check_traces() - Identified 2 bad trace(s) in all.
+[INFO]    :: edgetrace.py 1858 centroid_refine() - Found 23 right edge trace(s) to refine
+[INFO]    :: edgetrace.py 1878 centroid_refine() - Following 18 right edge(s) from row 1457; 5 trace(s) remain.
+[INFO]    :: edgetrace.py 1878 centroid_refine() - Following 3 right edge(s) from row 1834; 2 trace(s) remain.
+[INFO]    :: edgetrace.py 1878 centroid_refine() - Following 1 right edge(s) from row 26; 1 trace(s) remain.
+[INFO]    :: edgetrace.py 1878 centroid_refine() - Following 1 right edge(s) from row 1979; 0 trace(s) remain.
+[INFO]    :: edgetrace.py 2055 check_traces() - Tolerance for finding repeat traces: 3.0
+[INFO]    :: edgetrace.py 2076 check_traces() - Minimum spectral length of any trace (pixels): 674.85
+[INFO]    :: edgetrace.py 2081 check_traces() - Found 7 short trace(s).
+[INFO]    :: edgetrace.py 2117 check_traces() - Identified 7 bad trace(s) in all.
+[INFO]    :: edgetrace.py 2703 remove_traces() - Removing 9 edge traces.
+[WARNING] :: edgetrace.py 2876 spatial_sort() - Fit data is not available; cannot use it for spatially sorting the edges.
+[INFO]    :: edgetrace.py 2896 spatial_sort() - Re-sorting edges based on where they cross row 796
+[INFO]    :: edgetrace.py 3000 fit_refine() - --------------------------------------------------
+[INFO]    :: edgetrace.py 3001 fit_refine() -          Fitting Polynomial to Edge Trace         
+[INFO]    :: edgetrace.py 3002 fit_refine() - --------------------------------------------------
+[INFO]    :: edgetrace.py 3003 fit_refine() - Max shift btwn input and remeasured edge centroids: 0.50
+[INFO]    :: edgetrace.py 3004 fit_refine() - Max centroid error: None
+[INFO]    :: edgetrace.py 3005 fit_refine() - Trace fitting function: legendre
+[INFO]    :: edgetrace.py 3006 fit_refine() - Trace fitting order: 8
+[INFO]    :: edgetrace.py 3007 fit_refine() - Weighting for remeasuring edge centroids: uniform
+[INFO]    :: edgetrace.py 3008 fit_refine() - FWHM parameter for remeasuring edge centroids: 3.0
+[INFO]    :: edgetrace.py 3009 fit_refine() - Maximum deviation for fitted data: 5.0
+[INFO]    :: edgetrace.py 3010 fit_refine() - Maximum number of rejection iterations: 25
+[INFO]    :: edgetrace.py 3011 fit_refine() - Number of remeasuring and refitting iterations: 1
+[INFO]    :: edgetrace.py 2076 check_traces() - Minimum spectral length of any trace (pixels): 1022.50
+[INFO]    :: edgetrace.py 2081 check_traces() - Found 3 short trace(s).
+[INFO]    :: edgetrace.py 2117 check_traces() - Identified 3 bad trace(s) in all.
+[INFO]    :: edgetrace.py 2210 merge_traces() - No traces merged.
+[INFO]    :: edgetrace.py 3100 can_pca() - Minimum length of traces to include in the PCA: 1022.5
+[INFO]    :: edgetrace.py 2076 check_traces() - Minimum spectral length of any trace (pixels): 1022.50
+[INFO]    :: edgetrace.py 2081 check_traces() - Found 3 short trace(s).
+[INFO]    :: edgetrace.py 2117 check_traces() - Identified 3 bad trace(s) in all.
+[INFO]    :: edgetrace.py 3227 build_pca() - --------------------------------------------------
+[INFO]    :: edgetrace.py 3228 build_pca() -           Constructing PCA interpolator           
+[INFO]    :: edgetrace.py 3229 build_pca() - --------------------------------------------------
+[INFO]    :: edgetrace.py 3230 build_pca() - PCA composition of the left and right traces is done separately.
+[INFO]    :: edgetrace.py 3235 build_pca() - Requested pecentage of variance explained by PCA: 99.8
+[INFO]    :: edgetrace.py 3237 build_pca() - Function fit to PCA coefficients: polynomial
+[INFO]    :: edgetrace.py 3238 build_pca() - Lower sigma rejection: 2.0
+[INFO]    :: edgetrace.py 3239 build_pca() - Upper sigma rejection: 2.0
+[INFO]    :: edgetrace.py 3240 build_pca() - Maximum number of rejections per iteration: 1
+[INFO]    :: edgetrace.py 3241 build_pca() - Maximum number of rejection iterations: 25
+[INFO]    :: edgetrace.py 3100 can_pca() - Minimum length of traces to include in the PCA: 1022.5
+[INFO]    :: edgetrace.py 2076 check_traces() - Minimum spectral length of any trace (pixels): 1022.50
+[INFO]    :: edgetrace.py 2081 check_traces() - Found 3 short trace(s).
+[INFO]    :: edgetrace.py 2117 check_traces() - Identified 3 bad trace(s) in all.
+[INFO]    :: edgetrace.py 3280 build_pca() - Using 15/33 of the left traces in the PCA analysis.
+[INFO]    :: edgetrace.py 3280 build_pca() - Using 15/33 of the right traces in the PCA analysis.
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 15 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 99.958% of the total variance.
+[INFO]    :: edgetrace.py 3300 build_pca() - Order of function fit to each component: [2 1]
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 15 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 99.870% of the total variance.
+[INFO]    :: edgetrace.py 3300 build_pca() - Order of function fit to each component: [2 1]
+[INFO]    :: edgetrace.py 3451 peak_refine() - --------------------------------------------------
+[INFO]    :: edgetrace.py 3452 peak_refine() -    Refining traces using collapsed Sobel image    
+[INFO]    :: edgetrace.py 3453 peak_refine() - --------------------------------------------------
+[INFO]    :: edgetrace.py 3454 peak_refine() - Threshold for peak detection: 50.0
+[INFO]    :: edgetrace.py 3455 peak_refine() - Detector range (spectral axis) collapsed: [0.0, 1.0]
+[INFO]    :: edgetrace.py 3456 peak_refine() - Image fraction for trace mask filter: None
+[INFO]    :: edgetrace.py 3457 peak_refine() - Threshold for trace masking: 10.0
+[INFO]    :: edgetrace.py 3458 peak_refine() - Trace fitting function: legendre
+[INFO]    :: edgetrace.py 3459 peak_refine() - Trace fitting order: 8
+[INFO]    :: edgetrace.py 3460 peak_refine() - FWHM parameter for uniform-weighted centroids: 3.0
+[INFO]    :: edgetrace.py 3461 peak_refine() - Number of uniform-weighted iterations: 9.0
+[INFO]    :: edgetrace.py 3462 peak_refine() - FWHM parameter for Gaussian-weighted centroids: 3.0
+[INFO]    :: edgetrace.py 3463 peak_refine() - Number of Gaussian-weighted iterations: 6.0
+[INFO]    :: edgetrace.py 3464 peak_refine() - Maximum deviation for fitted data: 5.0
+[INFO]    :: edgetrace.py 3465 peak_refine() - Maximum number of rejection iterations: 25
+[INFO]    :: trace.py 1418 peak_trace() - Rectifying image by extracting along trace for each spatial pixel
+[INFO]    :: trace.py 1428 peak_trace() - Collapsing image spectrally between pixels 0:2045
+[INFO]    :: trace.py 1457 peak_trace() - Searching for peaks.
+[INFO]    :: trace.py 1466 peak_trace() - Found 17 good peak(s) in the rectified, collapsed image
+[INFO]    :: trace.py 1418 peak_trace() - Rectifying image by extracting along trace for each spatial pixel
+[INFO]    :: trace.py 1428 peak_trace() - Collapsing image spectrally between pixels 0:2045
+[INFO]    :: trace.py 1457 peak_trace() - Searching for peaks.
+[INFO]    :: trace.py 1466 peak_trace() - Found 16 good peak(s) in the rectified, collapsed image
+[INFO]    :: edgetrace.py 2896 spatial_sort() - Re-sorting edges based on where they cross row 682
+[INFO]    :: edgetrace.py 3100 can_pca() - Minimum length of traces to include in the PCA: 1022.5
+[INFO]    :: edgetrace.py 2076 check_traces() - Minimum spectral length of any trace (pixels): 1022.50
+[INFO]    :: edgetrace.py 2117 check_traces() - Identified 0 bad trace(s) in all.
+[INFO]    :: edgetrace.py 3227 build_pca() - --------------------------------------------------
+[INFO]    :: edgetrace.py 3228 build_pca() -           Constructing PCA interpolator           
+[INFO]    :: edgetrace.py 3229 build_pca() - --------------------------------------------------
+[INFO]    :: edgetrace.py 3230 build_pca() - PCA composition of the left and right traces is done separately.
+[INFO]    :: edgetrace.py 3235 build_pca() - Requested pecentage of variance explained by PCA: 99.8
+[INFO]    :: edgetrace.py 3237 build_pca() - Function fit to PCA coefficients: polynomial
+[INFO]    :: edgetrace.py 3238 build_pca() - Lower sigma rejection: 2.0
+[INFO]    :: edgetrace.py 3239 build_pca() - Upper sigma rejection: 2.0
+[INFO]    :: edgetrace.py 3240 build_pca() - Maximum number of rejections per iteration: 1
+[INFO]    :: edgetrace.py 3241 build_pca() - Maximum number of rejection iterations: 25
+[WARNING] :: edgetrace.py 3245 build_pca() - PCA model already exists and will be overwritten.
+[INFO]    :: edgetrace.py 3100 can_pca() - Minimum length of traces to include in the PCA: 1022.5
+[INFO]    :: edgetrace.py 2076 check_traces() - Minimum spectral length of any trace (pixels): 1022.50
+[INFO]    :: edgetrace.py 2117 check_traces() - Identified 0 bad trace(s) in all.
+[INFO]    :: edgetrace.py 3280 build_pca() - Using 17/33 of the left traces in the PCA analysis.
+[INFO]    :: edgetrace.py 3280 build_pca() - Using 16/33 of the right traces in the PCA analysis.
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 17 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 99.913% of the total variance.
+[INFO]    :: edgetrace.py 3300 build_pca() - Order of function fit to each component: [2 1]
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 16 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 99.882% of the total variance.
+[INFO]    :: edgetrace.py 3300 build_pca() - Order of function fit to each component: [2 1]
+[INFO]    :: edgetrace.py 3100 can_pca() - Minimum length of traces to include in the PCA: 1022.5
+[INFO]    :: edgetrace.py 2076 check_traces() - Minimum spectral length of any trace (pixels): 1022.50
+[INFO]    :: edgetrace.py 2117 check_traces() - Identified 0 bad trace(s) in all.
+[INFO]    :: edgetrace.py 2896 spatial_sort() - Re-sorting edges based on where they cross row 681
+[INFO]    :: edgetrace.py 3900 sync() - --------------------------------------------------
+[INFO]    :: edgetrace.py 3901 sync() -        Synchronizing left and right traces        
+[INFO]    :: edgetrace.py 3902 sync() - --------------------------------------------------
+[INFO]    :: edgetrace.py 3903 sync() - Found 0 left and 1 right trace(s) to add.
+[INFO]    :: edgetrace.py 3645 _get_reference_locations() - Mode used to set spatial position of new traces: median
+[INFO]    :: edgetrace.py 3646 _get_reference_locations() - For first left and last right, set trace to the edge: True
+[INFO]    :: edgetrace.py 4145 insert_traces() - Inserting 1 new traces.
+[INFO]    :: edgetrace.py 2896 spatial_sort() - Re-sorting edges based on where they cross row 681
+[INFO]    :: edgetrace.py 3100 can_pca() - Minimum length of traces to include in the PCA: 1022.5
+[INFO]    :: edgetrace.py 2076 check_traces() - Minimum spectral length of any trace (pixels): 1022.50
+[INFO]    :: edgetrace.py 2117 check_traces() - Identified 0 bad trace(s) in all.
+[INFO]    :: edgetrace.py 2490 check_synced() - Minimum slit gap (binned pixels): None
+[INFO]    :: edgetrace.py 2491 check_synced() - Minimum change in slit length (binned pixels): None
+[INFO]    :: edgetrace.py 2492 check_synced() - Range in the change in slit length not limited
+[INFO]    :: edgetrace.py 2494 check_synced() - Minimum slit length (binned pixels): None
+[INFO]    :: edgetrace.py 2495 check_synced() - Minimum science slit length (binned pixels): None
+[INFO]    :: edgetrace.py 2496 check_synced() - Range in slit length limited to +/-30.0%
+[INFO]    :: edgetrace.py 2567 check_synced() - Flagging 2 abnormally short slit edges.
+[INFO]    :: edgetrace.py 2703 remove_traces() - Removing 2 edge traces.
+[INFO]    :: edgetrace.py 2896 spatial_sort() - Re-sorting edges based on where they cross row 681
+[INFO]    :: edgetrace.py 3100 can_pca() - Minimum length of traces to include in the PCA: 1022.5
+[INFO]    :: edgetrace.py 2076 check_traces() - Minimum spectral length of any trace (pixels): 1022.50
+[INFO]    :: edgetrace.py 2117 check_traces() - Identified 0 bad trace(s) in all.
+[INFO]    :: edgetrace.py 3227 build_pca() - --------------------------------------------------
+[INFO]    :: edgetrace.py 3228 build_pca() -           Constructing PCA interpolator           
+[INFO]    :: edgetrace.py 3229 build_pca() - --------------------------------------------------
+[INFO]    :: edgetrace.py 3230 build_pca() - PCA composition of the left and right traces is done separately.
+[INFO]    :: edgetrace.py 3235 build_pca() - Requested pecentage of variance explained by PCA: 99.8
+[INFO]    :: edgetrace.py 3237 build_pca() - Function fit to PCA coefficients: polynomial
+[INFO]    :: edgetrace.py 3238 build_pca() - Lower sigma rejection: 2.0
+[INFO]    :: edgetrace.py 3239 build_pca() - Upper sigma rejection: 2.0
+[INFO]    :: edgetrace.py 3240 build_pca() - Maximum number of rejections per iteration: 1
+[INFO]    :: edgetrace.py 3241 build_pca() - Maximum number of rejection iterations: 25
+[WARNING] :: edgetrace.py 3245 build_pca() - PCA model already exists and will be overwritten.
+[INFO]    :: edgetrace.py 3100 can_pca() - Minimum length of traces to include in the PCA: 1022.5
+[INFO]    :: edgetrace.py 2076 check_traces() - Minimum spectral length of any trace (pixels): 1022.50
+[INFO]    :: edgetrace.py 2117 check_traces() - Identified 0 bad trace(s) in all.
+[INFO]    :: edgetrace.py 3280 build_pca() - Using 16/32 of the left traces in the PCA analysis.
+[INFO]    :: edgetrace.py 3280 build_pca() - Using 16/32 of the right traces in the PCA analysis.
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 16 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 99.948% of the total variance.
+[INFO]    :: edgetrace.py 3300 build_pca() - Order of function fit to each component: [2 1]
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 16 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 99.882% of the total variance.
+[INFO]    :: edgetrace.py 3300 build_pca() - Order of function fit to each component: [2 1]
+[INFO]    :: io.py 646 write_to_fits() - Compressing file: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterEdges_A_2_DET01.fits
+[INFO]    :: io.py 648 write_to_fits() - File written to: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterEdges_A_2_DET01.fits.gz
+[INFO]    :: edgetrace.py 5122 match_order() - Before vetting, the echelle order, matching left-right trace pair, and matching separation are:
+[INFO]    :: edgetrace.py 5124 match_order() -   ORDER PAIR    SEP
+[INFO]    :: edgetrace.py 5125 match_order() -  ------ ---- ------
+[INFO]    :: edgetrace.py 5127 match_order() -      26    1 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      25    2 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      24    3 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      23    4 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      22    5 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      21    6 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      20    7 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      19    8 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      18    9 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      17   10 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      16   11 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      15   12 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      14   13 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      13   14 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      12   15 -0.000
+[INFO]    :: edgetrace.py 5127 match_order() -      11   16 -0.000
+[INFO]    :: edgetrace.py 5128 match_order() -  ------ ---- ------
+[INFO]    :: io.py 646 write_to_fits() - Compressing file: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterSlits_A_2_DET01.fits
+[INFO]    :: io.py 648 write_to_fits() - File written to: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterSlits_A_2_DET01.fits.gz
+[INFO]    :: calibrations.py 275 get_arc() - Preparing a master Arc frame
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T23:05:20.558.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T23:09:41.465.fits.
+[WARNING] :: combine.py 147 weighted_combine() - Sigma clipping requested, but you cannot sigma clip with less than 3 images.  Proceeding without sigma clipping
+[INFO]    :: io.py 648 write_to_fits() - File written to: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterArc_A_2_DET01.fits
+[INFO]    :: calibrations.py 314 get_tiltimg() - Preparing a master Tiltimg frame
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T23:05:20.558.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T23:09:41.465.fits.
+[WARNING] :: combine.py 147 weighted_combine() - Sigma clipping requested, but you cannot sigma clip with less than 3 images.  Proceeding without sigma clipping
+[INFO]    :: io.py 648 write_to_fits() - File written to: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterTiltimg_A_2_DET01.fits
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 0
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 1
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 2
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 3
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 4
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 5
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 6
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 7
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 8
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 9
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 10
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 11
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 12
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 13
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 14
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 15
+[INFO]    :: waveio.py 189 load_line_lists() - Arc lamps used: OH_XSHOOTER
+[INFO]    :: utils.py 245 get_reid_arxiv_filepath() - reid_arxiv file vlt_xshooter_nir.fits does not exist in
+             the package directory.  Checking cache or downloading the file now.
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 0/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 26
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=1 reached in robust_polyfit_djs
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=2 reached in robust_polyfit_djs
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=1 reached in robust_polyfit_djs
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=1 reached in robust_polyfit_djs
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 1/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 25
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=1 reached in robust_polyfit_djs
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=1 reached in robust_polyfit_djs
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=1 reached in robust_polyfit_djs
+[WARNING] :: autoid.py 1304 __init__() - ---------------------------------------------------
+             Reidentify report for slit 1/15:
+               Poor RMS (0.505)! Need to add additional spectra to arxiv to improve fits
+             ---------------------------------------------------
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 2/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 24
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 3/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 23
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[WARNING] :: autoid.py 1304 __init__() - ---------------------------------------------------
+             Reidentify report for slit 3/15:
+               Poor RMS (0.366)! Need to add additional spectra to arxiv to improve fits
+             ---------------------------------------------------
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 4/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 22
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[WARNING] :: autoid.py 1304 __init__() - ---------------------------------------------------
+             Reidentify report for slit 4/15:
+               Poor RMS (0.412)! Need to add additional spectra to arxiv to improve fits
+             ---------------------------------------------------
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 5/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 21
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 6/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 20
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=1 reached in robust_polyfit_djs
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=2 reached in robust_polyfit_djs
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 7/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 19
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[WARNING] :: autoid.py 1304 __init__() - ---------------------------------------------------
+             Reidentify report for slit 7/15:
+               Poor RMS (1.151)! Need to add additional spectra to arxiv to improve fits
+             ---------------------------------------------------
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 8/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 18
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 9/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 17
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 10/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 16
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=1 reached in robust_polyfit_djs
+[WARNING] :: autoid.py 1304 __init__() - ---------------------------------------------------
+             Reidentify report for slit 10/15:
+               Poor RMS (0.271)! Need to add additional spectra to arxiv to improve fits
+             ---------------------------------------------------
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 11/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 15
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=1 reached in robust_polyfit_djs
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 12/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 14
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[WARNING] :: autoid.py 1304 __init__() - ---------------------------------------------------
+             Reidentify report for slit 12/15:
+               Poor RMS (0.861)! Need to add additional spectra to arxiv to improve fits
+             ---------------------------------------------------
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 13/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 13
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 14/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 12
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=1 reached in robust_polyfit_djs
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=1 reached in robust_polyfit_djs
+[WARNING] :: autoid.py 1304 __init__() - ---------------------------------------------------
+             Reidentify report for slit 14/15:
+               Poor RMS (0.519)! Need to add additional spectra to arxiv to improve fits
+             ---------------------------------------------------
+[INFO]    :: autoid.py 1264 __init__() - Reidentifying and fitting slit # 15/15
+[INFO]    :: autoid.py 1269 __init__() - Order: 11
+[INFO]    :: autoid.py 1273 __init__() - Using sigdetect =  10.0
+[INFO]    :: autoid.py 1274 __init__() - Using rms_threshold =  0.25
+[INFO]    :: autoid.py 651 set_fwhm() - User-provided arc lines FWHM: 5.0 pixels
+[INFO]    :: autoid.py 460 reidentify() - Cross-correlating with arxiv slit # 0
+[INFO]    :: autoid.py 1063 report_final() - 
+             ---------------------------------------------------
+             Final report for slit 0/15:
+               Pixels correlate with wavelength
+               Number of lines detected      = 11
+               Number of lines that were fit = 7
+               Central wavelength            = 10115.2A
+               Central dispersion            = 0.406644A/pix
+               Central wave/disp             = 24874.8
+               Final RMS of fit              = 0.231648
+[WARNING] :: autoid.py 1050 report_final() - ---------------------------------------------------
+             Final report for slit 1/16:
+               Wavelength calibration not performed!
+[INFO]    :: autoid.py 1063 report_final() - 
+             ---------------------------------------------------
+             Final report for slit 2/15:
+               Pixels correlate with wavelength
+               Number of lines detected      = 17
+               Number of lines that were fit = 6
+               Central wavelength            = 11173A
+               Central dispersion            = 1.6521A/pix
+               Central wave/disp             = 6762.88
+               Final RMS of fit              = 0.0509344
+[WARNING] :: autoid.py 1050 report_final() - ---------------------------------------------------
+             Final report for slit 3/16:
+               Wavelength calibration not performed!
+[WARNING] :: autoid.py 1050 report_final() - ---------------------------------------------------
+             Final report for slit 4/16:
+               Wavelength calibration not performed!
+[WARNING] :: autoid.py 1050 report_final() - ---------------------------------------------------
+             Final report for slit 5/16:
+               Wavelength calibration not performed!
+[INFO]    :: autoid.py 1063 report_final() - 
+             ---------------------------------------------------
+             Final report for slit 6/15:
+               Pixels correlate with wavelength
+               Number of lines detected      = 29
+               Number of lines that were fit = 8
+               Central wavelength            = 13153.1A
+               Central dispersion            = 0.513181A/pix
+               Central wave/disp             = 25630.5
+               Final RMS of fit              = 0.103162
+[WARNING] :: autoid.py 1050 report_final() - ---------------------------------------------------
+             Final report for slit 7/16:
+               Wavelength calibration not performed!
+[INFO]    :: autoid.py 1063 report_final() - 
+             ---------------------------------------------------
+             Final report for slit 8/15:
+               Pixels correlate with wavelength
+               Number of lines detected      = 22
+               Number of lines that were fit = 5
+               Central wavelength            = 14768.1A
+               Central dispersion            = 6.06746A/pix
+               Central wave/disp             = 2433.98
+               Final RMS of fit              = 1.7503e-11
+[WARNING] :: autoid.py 1050 report_final() - ---------------------------------------------------
+             Final report for slit 9/16:
+               Wavelength calibration not performed!
+[WARNING] :: autoid.py 1050 report_final() - ---------------------------------------------------
+             Final report for slit 10/16:
+               Wavelength calibration not performed!
+[INFO]    :: autoid.py 1063 report_final() - 
+             ---------------------------------------------------
+             Final report for slit 11/15:
+               Pixels correlate with wavelength
+               Number of lines detected      = 20
+               Number of lines that were fit = 9
+               Central wavelength            = 17483.2A
+               Central dispersion            = 0.72399A/pix
+               Central wave/disp             = 24148.4
+               Final RMS of fit              = 0.213795
+[WARNING] :: autoid.py 1050 report_final() - ---------------------------------------------------
+             Final report for slit 12/16:
+               Wavelength calibration not performed!
+[WARNING] :: autoid.py 1050 report_final() - ---------------------------------------------------
+             Final report for slit 13/16:
+               Wavelength calibration not performed!
+[WARNING] :: autoid.py 1050 report_final() - ---------------------------------------------------
+             Final report for slit 14/16:
+               Wavelength calibration not performed!
+[WARNING] :: autoid.py 1050 report_final() - ---------------------------------------------------
+             Final report for slit 15/16:
+               Wavelength calibration not performed!
+[INFO]    :: wavecalib.py 666 echelle_2dfit() - Fitting 2-d wavelength solution for echelle....
+[INFO]    :: wavecalib.py 686 echelle_2dfit() - Fitting detector 1
+[INFO]    :: arc.py 93 fit2darc() - RMS: 6.39889 Ang*Order#
+[INFO]    :: arc.py 117 fit2darc_global_qa() - Creating QA for 2D wavelength solution
+[INFO]    :: arc.py 210 fit2darc_orders_qa() - Creating QA for 2D wavelength solution
+[INFO]    :: io.py 648 write_to_fits() - File written to: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterWaveCalib_A_2_DET01.fits
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 0
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 1
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 2
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 3
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 4
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 5
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 6
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 7
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 8
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 9
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 10
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 11
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 12
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 13
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 14
+[INFO]    :: arc.py 491 get_censpec() - Extracting approximate arc spectrum along the center of slit 15
+[INFO]    :: wavetilts.py 612 run() - Computing tilts for slit 0/16
+[INFO]    :: wavetilts.py 614 run() - Finding lines for tilt analysis
+[INFO]    :: tracewave.py 86 tilts_find_lines() - Rejecting 8 lines below sigma threshold.
+[INFO]    :: tracewave.py 107 tilts_find_lines() - Removed 0 lines that were too close to neighboring lines.
+[INFO]    :: tracewave.py 129 tilts_find_lines() - Modeling arc line tilts with 3 arc lines
+[INFO]    :: wavetilts.py 631 run() - Trace the tilts
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 2/3
+[INFO]    :: tracewave.py 629 trace_tilts() - PCA modeling 2 good tilts
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 2 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 100.000% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [2 1]
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 1/3
+[WARNING] :: wavetilts.py 637 run() - Less than 2 usable arc lines for slit/order = 26. This slit/order will not reduced!
+[INFO]    :: wavetilts.py 612 run() - Computing tilts for slit 1/16
+[INFO]    :: wavetilts.py 614 run() - Finding lines for tilt analysis
+[INFO]    :: tracewave.py 86 tilts_find_lines() - Rejecting 9 lines below sigma threshold.
+[INFO]    :: tracewave.py 107 tilts_find_lines() - Removed 0 lines that were too close to neighboring lines.
+[INFO]    :: tracewave.py 129 tilts_find_lines() - Modeling arc line tilts with 5 arc lines
+[INFO]    :: wavetilts.py 631 run() - Trace the tilts
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 427 robust_fit() - All points were masked. Returning current fit and masking all points. Fit is likely undesirable
+[WARNING] :: fitting.py 143 fit() - Input gpm is masked everywhere. Fit is probably probelmatic
+[WARNING] :: fitting.py 143 fit() - Input gpm is masked everywhere. Fit is probably probelmatic
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 0/5
+[WARNING] :: tracewave.py 496 trace_tilts_work() - Too many lines rejected in this slit/order.
+             Would reject 5/5 lines (more than 95%).
+             Proceeding without rejection, but reduction likely bogus.
+[INFO]    :: tracewave.py 629 trace_tilts() - PCA modeling 5 good tilts
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 5 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 99.983% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [2 1]
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=25 reached in robust_polyfit_djs
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 0/5
+[WARNING] :: tracewave.py 496 trace_tilts_work() - Too many lines rejected in this slit/order.
+             Would reject 5/5 lines (more than 95%).
+             Proceeding without rejection, but reduction likely bogus.
+[INFO]    :: tracewave.py 696 fit_tilts() - Fitting tilts with a low order, 2D legendre2d
+[INFO]    :: tracewave.py 734 fit_tilts() - Residuals: 2D Legendre Fit
+[INFO]    :: tracewave.py 735 fit_tilts() - RMS (pixels): 0.04983184004462395
+[INFO]    :: tracewave.py 736 fit_tilts() - RMS/FWHM: 0.009966368008924791
+[INFO]    :: tracewave.py 738 fit_tilts() - Inverting the fit to generate the tilts image
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=20 reached in robust_polyfit_djs
+[INFO]    :: tracewave.py 797 fit_tilts() - Rejected 7317/72451 pixels in final inversion tilts image fit
+[INFO]    :: wavetilts.py 612 run() - Computing tilts for slit 2/16
+[INFO]    :: wavetilts.py 614 run() - Finding lines for tilt analysis
+[INFO]    :: tracewave.py 86 tilts_find_lines() - Rejecting 8 lines below sigma threshold.
+[INFO]    :: tracewave.py 107 tilts_find_lines() - Removed 0 lines that were too close to neighboring lines.
+[INFO]    :: tracewave.py 129 tilts_find_lines() - Modeling arc line tilts with 9 arc lines
+[INFO]    :: wavetilts.py 631 run() - Trace the tilts
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 8/9
+[INFO]    :: tracewave.py 629 trace_tilts() - PCA modeling 8 good tilts
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 8 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 98.329% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [2 1]
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 7/9
+[INFO]    :: tracewave.py 696 fit_tilts() - Fitting tilts with a low order, 2D legendre2d
+[INFO]    :: tracewave.py 734 fit_tilts() - Residuals: 2D Legendre Fit
+[INFO]    :: tracewave.py 735 fit_tilts() - RMS (pixels): 0.06622359054962405
+[INFO]    :: tracewave.py 736 fit_tilts() - RMS/FWHM: 0.013244718109924811
+[INFO]    :: tracewave.py 738 fit_tilts() - Inverting the fit to generate the tilts image
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=20 reached in robust_polyfit_djs
+[INFO]    :: tracewave.py 797 fit_tilts() - Rejected 10545/76086 pixels in final inversion tilts image fit
+[INFO]    :: wavetilts.py 612 run() - Computing tilts for slit 3/16
+[INFO]    :: wavetilts.py 614 run() - Finding lines for tilt analysis
+[INFO]    :: tracewave.py 86 tilts_find_lines() - Rejecting 7 lines below sigma threshold.
+[INFO]    :: tracewave.py 107 tilts_find_lines() - Removed 0 lines that were too close to neighboring lines.
+[INFO]    :: tracewave.py 129 tilts_find_lines() - Modeling arc line tilts with 11 arc lines
+[INFO]    :: wavetilts.py 631 run() - Trace the tilts
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 427 robust_fit() - All points were masked. Returning current fit and masking all points. Fit is likely undesirable
+[WARNING] :: fitting.py 143 fit() - Input gpm is masked everywhere. Fit is probably probelmatic
+[WARNING] :: fitting.py 143 fit() - Input gpm is masked everywhere. Fit is probably probelmatic
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 9/11
+[INFO]    :: tracewave.py 629 trace_tilts() - PCA modeling 9 good tilts
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 9 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 98.636% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [2 1]
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 427 robust_fit() - All points were masked. Returning current fit and masking all points. Fit is likely undesirable
+[WARNING] :: fitting.py 143 fit() - Input gpm is masked everywhere. Fit is probably probelmatic
+[WARNING] :: fitting.py 143 fit() - Input gpm is masked everywhere. Fit is probably probelmatic
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 7/11
+[INFO]    :: tracewave.py 696 fit_tilts() - Fitting tilts with a low order, 2D legendre2d
+[INFO]    :: tracewave.py 734 fit_tilts() - Residuals: 2D Legendre Fit
+[INFO]    :: tracewave.py 735 fit_tilts() - RMS (pixels): 0.06156313399419732
+[INFO]    :: tracewave.py 736 fit_tilts() - RMS/FWHM: 0.012312626798839463
+[INFO]    :: tracewave.py 738 fit_tilts() - Inverting the fit to generate the tilts image
+[INFO]    :: tracewave.py 797 fit_tilts() - Rejected 3737/80171 pixels in final inversion tilts image fit
+[INFO]    :: wavetilts.py 612 run() - Computing tilts for slit 4/16
+[INFO]    :: wavetilts.py 614 run() - Finding lines for tilt analysis
+[INFO]    :: tracewave.py 86 tilts_find_lines() - Rejecting 9 lines below sigma threshold.
+[INFO]    :: tracewave.py 107 tilts_find_lines() - Removed 0 lines that were too close to neighboring lines.
+[INFO]    :: tracewave.py 129 tilts_find_lines() - Modeling arc line tilts with 13 arc lines
+[INFO]    :: wavetilts.py 631 run() - Trace the tilts
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 427 robust_fit() - All points were masked. Returning current fit and masking all points. Fit is likely undesirable
+[WARNING] :: fitting.py 143 fit() - Input gpm is masked everywhere. Fit is probably probelmatic
+[WARNING] :: fitting.py 143 fit() - Input gpm is masked everywhere. Fit is probably probelmatic
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 427 robust_fit() - All points were masked. Returning current fit and masking all points. Fit is likely undesirable
+[WARNING] :: fitting.py 143 fit() - Input gpm is masked everywhere. Fit is probably probelmatic
+[WARNING] :: fitting.py 143 fit() - Input gpm is masked everywhere. Fit is probably probelmatic
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 9/13
+[INFO]    :: tracewave.py 629 trace_tilts() - PCA modeling 9 good tilts
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 9 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 97.695% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [2 1]
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 9/13
+[INFO]    :: tracewave.py 696 fit_tilts() - Fitting tilts with a low order, 2D legendre2d
+[INFO]    :: tracewave.py 734 fit_tilts() - Residuals: 2D Legendre Fit
+[INFO]    :: tracewave.py 735 fit_tilts() - RMS (pixels): 0.07581823614347545
+[INFO]    :: tracewave.py 736 fit_tilts() - RMS/FWHM: 0.01516364722869509
+[INFO]    :: tracewave.py 738 fit_tilts() - Inverting the fit to generate the tilts image
+[INFO]    :: tracewave.py 797 fit_tilts() - Rejected 981/84790 pixels in final inversion tilts image fit
+[INFO]    :: wavetilts.py 608 run() - Skipping bad slit 5/16
+[INFO]    :: wavetilts.py 612 run() - Computing tilts for slit 6/16
+[INFO]    :: wavetilts.py 614 run() - Finding lines for tilt analysis
+[INFO]    :: tracewave.py 86 tilts_find_lines() - Rejecting 16 lines below sigma threshold.
+[INFO]    :: tracewave.py 107 tilts_find_lines() - Removed 2 lines that were too close to neighboring lines.
+[INFO]    :: tracewave.py 129 tilts_find_lines() - Modeling arc line tilts with 11 arc lines
+[INFO]    :: wavetilts.py 631 run() - Trace the tilts
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 4/11
+[INFO]    :: tracewave.py 629 trace_tilts() - PCA modeling 4 good tilts
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 4 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 99.987% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [2 1]
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 5/11
+[INFO]    :: tracewave.py 696 fit_tilts() - Fitting tilts with a low order, 2D legendre2d
+[INFO]    :: tracewave.py 734 fit_tilts() - Residuals: 2D Legendre Fit
+[INFO]    :: tracewave.py 735 fit_tilts() - RMS (pixels): 0.051015989036479206
+[INFO]    :: tracewave.py 736 fit_tilts() - RMS/FWHM: 0.010203197807295842
+[INFO]    :: tracewave.py 738 fit_tilts() - Inverting the fit to generate the tilts image
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=20 reached in robust_polyfit_djs
+[INFO]    :: tracewave.py 797 fit_tilts() - Rejected 78806/95923 pixels in final inversion tilts image fit
+[INFO]    :: wavetilts.py 612 run() - Computing tilts for slit 7/16
+[INFO]    :: wavetilts.py 614 run() - Finding lines for tilt analysis
+[INFO]    :: tracewave.py 86 tilts_find_lines() - Rejecting 12 lines below sigma threshold.
+[INFO]    :: tracewave.py 107 tilts_find_lines() - Removed 0 lines that were too close to neighboring lines.
+[INFO]    :: tracewave.py 129 tilts_find_lines() - Modeling arc line tilts with 9 arc lines
+[INFO]    :: wavetilts.py 631 run() - Trace the tilts
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 8/9
+[INFO]    :: tracewave.py 629 trace_tilts() - PCA modeling 8 good tilts
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 8 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 97.642% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [2 1]
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 7/9
+[INFO]    :: tracewave.py 696 fit_tilts() - Fitting tilts with a low order, 2D legendre2d
+[INFO]    :: tracewave.py 734 fit_tilts() - Residuals: 2D Legendre Fit
+[INFO]    :: tracewave.py 735 fit_tilts() - RMS (pixels): 0.05729589964635964
+[INFO]    :: tracewave.py 736 fit_tilts() - RMS/FWHM: 0.011459179929271927
+[INFO]    :: tracewave.py 738 fit_tilts() - Inverting the fit to generate the tilts image
+[INFO]    :: tracewave.py 797 fit_tilts() - Rejected 2385/101971 pixels in final inversion tilts image fit
+[INFO]    :: wavetilts.py 612 run() - Computing tilts for slit 8/16
+[INFO]    :: wavetilts.py 614 run() - Finding lines for tilt analysis
+[INFO]    :: tracewave.py 86 tilts_find_lines() - Rejecting 8 lines below sigma threshold.
+[INFO]    :: tracewave.py 107 tilts_find_lines() - Removed 0 lines that were too close to neighboring lines.
+[INFO]    :: tracewave.py 129 tilts_find_lines() - Modeling arc line tilts with 14 arc lines
+[INFO]    :: wavetilts.py 631 run() - Trace the tilts
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 12/14
+[INFO]    :: tracewave.py 629 trace_tilts() - PCA modeling 12 good tilts
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 12 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 96.955% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [2 1]
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 12/14
+[INFO]    :: tracewave.py 696 fit_tilts() - Fitting tilts with a low order, 2D legendre2d
+[INFO]    :: tracewave.py 734 fit_tilts() - Residuals: 2D Legendre Fit
+[INFO]    :: tracewave.py 735 fit_tilts() - RMS (pixels): 0.06253427646416827
+[INFO]    :: tracewave.py 736 fit_tilts() - RMS/FWHM: 0.012506855292833654
+[INFO]    :: tracewave.py 738 fit_tilts() - Inverting the fit to generate the tilts image
+[INFO]    :: tracewave.py 797 fit_tilts() - Rejected 2081/108920 pixels in final inversion tilts image fit
+[INFO]    :: wavetilts.py 608 run() - Skipping bad slit 9/16
+[INFO]    :: wavetilts.py 612 run() - Computing tilts for slit 10/16
+[INFO]    :: wavetilts.py 614 run() - Finding lines for tilt analysis
+[INFO]    :: tracewave.py 86 tilts_find_lines() - Rejecting 5 lines below sigma threshold.
+[INFO]    :: tracewave.py 107 tilts_find_lines() - Removed 0 lines that were too close to neighboring lines.
+[INFO]    :: tracewave.py 129 tilts_find_lines() - Modeling arc line tilts with 6 arc lines
+[INFO]    :: wavetilts.py 631 run() - Trace the tilts
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 4/6
+[INFO]    :: tracewave.py 629 trace_tilts() - PCA modeling 4 good tilts
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 4 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 99.890% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [2 1]
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 4/6
+[INFO]    :: tracewave.py 696 fit_tilts() - Fitting tilts with a low order, 2D legendre2d
+[INFO]    :: tracewave.py 734 fit_tilts() - Residuals: 2D Legendre Fit
+[INFO]    :: tracewave.py 735 fit_tilts() - RMS (pixels): 0.044422451483604554
+[INFO]    :: tracewave.py 736 fit_tilts() - RMS/FWHM: 0.00888449029672091
+[INFO]    :: tracewave.py 738 fit_tilts() - Inverting the fit to generate the tilts image
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=20 reached in robust_polyfit_djs
+[INFO]    :: tracewave.py 797 fit_tilts() - Rejected 28649/126391 pixels in final inversion tilts image fit
+[INFO]    :: wavetilts.py 612 run() - Computing tilts for slit 11/16
+[INFO]    :: wavetilts.py 614 run() - Finding lines for tilt analysis
+[INFO]    :: tracewave.py 86 tilts_find_lines() - Rejecting 8 lines below sigma threshold.
+[INFO]    :: tracewave.py 107 tilts_find_lines() - Removed 0 lines that were too close to neighboring lines.
+[INFO]    :: tracewave.py 129 tilts_find_lines() - Modeling arc line tilts with 12 arc lines
+[INFO]    :: wavetilts.py 631 run() - Trace the tilts
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 11/12
+[INFO]    :: tracewave.py 629 trace_tilts() - PCA modeling 11 good tilts
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 11 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 98.626% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [2 1]
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 10/12
+[INFO]    :: tracewave.py 696 fit_tilts() - Fitting tilts with a low order, 2D legendre2d
+[INFO]    :: tracewave.py 734 fit_tilts() - Residuals: 2D Legendre Fit
+[INFO]    :: tracewave.py 735 fit_tilts() - RMS (pixels): 0.04821743160987707
+[INFO]    :: tracewave.py 736 fit_tilts() - RMS/FWHM: 0.009643486321975415
+[INFO]    :: tracewave.py 738 fit_tilts() - Inverting the fit to generate the tilts image
+[INFO]    :: tracewave.py 797 fit_tilts() - Rejected 9197/132528 pixels in final inversion tilts image fit
+[INFO]    :: wavetilts.py 612 run() - Computing tilts for slit 12/16
+[INFO]    :: wavetilts.py 614 run() - Finding lines for tilt analysis
+[INFO]    :: tracewave.py 86 tilts_find_lines() - Rejecting 3 lines below sigma threshold.
+[INFO]    :: tracewave.py 107 tilts_find_lines() - Removed 0 lines that were too close to neighboring lines.
+[INFO]    :: tracewave.py 129 tilts_find_lines() - Modeling arc line tilts with 17 arc lines
+[INFO]    :: wavetilts.py 631 run() - Trace the tilts
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 15/17
+[INFO]    :: tracewave.py 629 trace_tilts() - PCA modeling 15 good tilts
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 15 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 97.617% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [2 1]
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 17/17
+[INFO]    :: tracewave.py 696 fit_tilts() - Fitting tilts with a low order, 2D legendre2d
+[INFO]    :: tracewave.py 734 fit_tilts() - Residuals: 2D Legendre Fit
+[INFO]    :: tracewave.py 735 fit_tilts() - RMS (pixels): 0.06740247748628297
+[INFO]    :: tracewave.py 736 fit_tilts() - RMS/FWHM: 0.013480495497256596
+[INFO]    :: tracewave.py 738 fit_tilts() - Inverting the fit to generate the tilts image
+[INFO]    :: tracewave.py 797 fit_tilts() - Rejected 0/132750 pixels in final inversion tilts image fit
+[INFO]    :: wavetilts.py 608 run() - Skipping bad slit 13/16
+[INFO]    :: wavetilts.py 612 run() - Computing tilts for slit 14/16
+[INFO]    :: wavetilts.py 614 run() - Finding lines for tilt analysis
+[INFO]    :: tracewave.py 86 tilts_find_lines() - Rejecting 4 lines below sigma threshold.
+[INFO]    :: tracewave.py 107 tilts_find_lines() - Removed 0 lines that were too close to neighboring lines.
+[INFO]    :: tracewave.py 129 tilts_find_lines() - Modeling arc line tilts with 15 arc lines
+[INFO]    :: wavetilts.py 631 run() - Trace the tilts
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[WARNING] :: fitting.py 425 robust_fit() - More parameters than data points - fit might be undesirable
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 13/15
+[INFO]    :: tracewave.py 629 trace_tilts() - PCA modeling 13 good tilts
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 13 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 2 component(s), containing 98.231% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [2 1]
+[INFO]    :: tracewave.py 486 trace_tilts_work() - Number of usable arc lines for tilts: 15/15
+[INFO]    :: tracewave.py 696 fit_tilts() - Fitting tilts with a low order, 2D legendre2d
+[INFO]    :: tracewave.py 734 fit_tilts() - Residuals: 2D Legendre Fit
+[INFO]    :: tracewave.py 735 fit_tilts() - RMS (pixels): 0.07860709754601279
+[INFO]    :: tracewave.py 736 fit_tilts() - RMS/FWHM: 0.01572141950920256
+[INFO]    :: tracewave.py 738 fit_tilts() - Inverting the fit to generate the tilts image
+[INFO]    :: tracewave.py 797 fit_tilts() - Rejected 3648/131325 pixels in final inversion tilts image fit
+[INFO]    :: wavetilts.py 608 run() - Skipping bad slit 15/16
+[INFO]    :: io.py 648 write_to_fits() - File written to: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterTilts_A_2_DET01.fits
+[INFO]    :: calibrations.py 563 get_flats() - Creating Master Pixel Flat using files: 
+             calibrations.py 565 get_flats() - XSHOO.2017-08-18T14:10:44.914.fits
+             calibrations.py 565 get_flats() - XSHOO.2017-08-18T14:11:04.154.fits
+             calibrations.py 565 get_flats() - XSHOO.2017-08-18T14:11:23.368.fits
+             calibrations.py 565 get_flats() - XSHOO.2017-08-18T14:11:44.883.fits
+             calibrations.py 565 get_flats() - XSHOO.2017-08-18T14:12:06.339.fits
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:10:44.914.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:11:04.154.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:11:23.368.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:11:44.883.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:12:06.339.fits.
+[INFO]    :: calibrations.py 571 get_flats() - Subtracting lamp off flats using files: 
+             calibrations.py 573 get_flats() - XSHOO.2017-08-18T14:10:56.018.fits
+             calibrations.py 573 get_flats() - XSHOO.2017-08-18T14:11:13.011.fits
+             calibrations.py 573 get_flats() - XSHOO.2017-08-18T14:11:34.529.fits
+             calibrations.py 573 get_flats() - XSHOO.2017-08-18T14:11:55.984.fits
+             calibrations.py 573 get_flats() - XSHOO.2017-08-18T14:12:17.443.fits
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:10:56.018.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:11:13.011.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:11:34.529.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:11:55.984.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T14:12:17.443.fits.
+[INFO]    :: flatfield.py 630 build_waveimg() - Generating wavelength image
+[INFO]    :: flatfield.py 840 fit() - Skipping bad slit: 91
+[INFO]    :: flatfield.py 852 fit() - Modeling the flat-field response for slit spat_id=163: 2/16
+[INFO]    :: flatfield.py 933 fit() - Spectral fit of flatfield for 44785/52068  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 44785/44785 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.094     3626    1.00                  
+[INFO]    :: fitting.py 1209 bspline_profile() -                      2        --       --      --                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.031     4012    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.028     4141    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      5     0.027     4186    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      6     0.027     4194    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      7     0.027     4195    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      8     0.027     4196    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      9     0.027     4196    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.027     4196    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1022 fit() - Spatial fit of flatfield for 56889/63178  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 56889/56889 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.000        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flat.py 396 tweak_slit_edges() - Tweaking left slit boundary by 6.3% % (2.97 pixels)
+[INFO]    :: flat.py 450 tweak_slit_edges() - Tweaking right slit boundary by 4.7% % (2.20 pixels)
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 56889/56889 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.009        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.009        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1353 spatial_fit_finecorr() - Performing a fine correction to the spatial illumination (slit=163)
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=10 reached in robust_polyfit_djs
+[INFO]    :: flatfield.py 1539 spatillum_finecorr_qa() - Generating QA for spatial illumination fine correction
+[INFO]    :: flatfield.py 1614 spatillum_finecorr_qa() - Saved QA:
+             /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/QA/PNGs/Spatillum_FineCorr_A_2_DET01_S0163_spatillum_finecorr.png
+[INFO]    :: flatfield.py 1138 fit() - Performing 2D illumination + scattered light flat field fit
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 3 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 43944/46320 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     7.862     5995    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     2.039     6431    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     1.778     6543    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     1.732     6572    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      5     1.721     6583    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      6     1.717     6587    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      7     1.716     6588    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      8     1.715     6588    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     1.715     6588    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 852 fit() - Modeling the flat-field response for slit spat_id=232: 3/16
+[INFO]    :: flatfield.py 933 fit() - Spectral fit of flatfield for 47169/54592  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 47169/47169 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.025      274    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.001      278    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.001      278    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.001      278    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1022 fit() - Spatial fit of flatfield for 65042/66282  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 65042/65042 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.000        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flat.py 396 tweak_slit_edges() - Tweaking left slit boundary by 3.4% % (1.60 pixels)
+[INFO]    :: flat.py 450 tweak_slit_edges() - Tweaking right slit boundary by 3.3% % (1.54 pixels)
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 65042/65042 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.006        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.006        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1353 spatial_fit_finecorr() - Performing a fine correction to the spatial illumination (slit=232)
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=10 reached in robust_polyfit_djs
+[INFO]    :: flatfield.py 1539 spatillum_finecorr_qa() - Generating QA for spatial illumination fine correction
+[INFO]    :: flatfield.py 1614 spatillum_finecorr_qa() - Saved QA:
+             /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/QA/PNGs/Spatillum_FineCorr_A_2_DET01_S0232_spatillum_finecorr.png
+[INFO]    :: flatfield.py 1138 fit() - Performing 2D illumination + scattered light flat field fit
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 3 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 50237/50968 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     2.270     1450    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.928     1478    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.919     1480    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.918     1480    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.918     1480    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 852 fit() - Modeling the flat-field response for slit spat_id=299: 4/16
+[INFO]    :: flatfield.py 933 fit() - Spectral fit of flatfield for 49496/57383  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 49496/49496 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.019      294    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.001      302    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.001      303    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.001      303    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.001      303    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1022 fit() - Spatial fit of flatfield for 68821/69723  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 68821/68821 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.000        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flat.py 396 tweak_slit_edges() - Tweaking left slit boundary by 3.3% % (1.53 pixels)
+[INFO]    :: flat.py 450 tweak_slit_edges() - Tweaking right slit boundary by 3.2% % (1.47 pixels)
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 68821/68821 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.005        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.005        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1353 spatial_fit_finecorr() - Performing a fine correction to the spatial illumination (slit=299)
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=10 reached in robust_polyfit_djs
+[INFO]    :: flatfield.py 1539 spatillum_finecorr_qa() - Generating QA for spatial illumination fine correction
+[INFO]    :: flatfield.py 1614 spatillum_finecorr_qa() - Saved QA:
+             /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/QA/PNGs/Spatillum_FineCorr_A_2_DET01_S0299_spatillum_finecorr.png
+[INFO]    :: flatfield.py 1138 fit() - Performing 2D illumination + scattered light flat field fit
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 3 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 52908/53723 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     2.313     1632    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.880     1685    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.862     1688    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.861     1688    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.861     1688    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 852 fit() - Modeling the flat-field response for slit spat_id=364: 5/16
+[INFO]    :: flatfield.py 933 fit() - Spectral fit of flatfield for 52024/60440  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 52024/52024 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.025      403    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.001      417    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.001      419    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.001      419    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.001      419    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1022 fit() - Spatial fit of flatfield for 72491/73480  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 72491/72491 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.000        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flat.py 396 tweak_slit_edges() - Tweaking left slit boundary by 3.3% % (1.55 pixels)
+[INFO]    :: flat.py 450 tweak_slit_edges() - Tweaking right slit boundary by 3.0% % (1.39 pixels)
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 72491/72491 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.005        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.005        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1353 spatial_fit_finecorr() - Performing a fine correction to the spatial illumination (slit=364)
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=10 reached in robust_polyfit_djs
+[INFO]    :: flatfield.py 1539 spatillum_finecorr_qa() - Generating QA for spatial illumination fine correction
+[INFO]    :: flatfield.py 1614 spatillum_finecorr_qa() - Saved QA:
+             /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/QA/PNGs/Spatillum_FineCorr_A_2_DET01_S0364_spatillum_finecorr.png
+[INFO]    :: flatfield.py 1138 fit() - Performing 2D illumination + scattered light flat field fit
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 3 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 55598/56574 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     3.053     2109    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.943     2184    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.916     2198    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.911     2199    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      5     0.911     2200    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      6     0.910     2200    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.910     2200    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 840 fit() - Skipping bad slit: 426
+[INFO]    :: flatfield.py 852 fit() - Modeling the flat-field response for slit spat_id=487: 7/16
+[INFO]    :: flatfield.py 933 fit() - Spectral fit of flatfield for 58568/67698  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 58568/58568 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1209 bspline_profile() -                      1        --       --      --                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.544    23510    1.00                  
+[INFO]    :: fitting.py 1209 bspline_profile() -                      3        --       --      --                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.048    24607    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      5     0.037    24966    1.00                  
+[INFO]    :: fitting.py 1209 bspline_profile() -                      6        --       --      --                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      7     0.034    25079    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      8     0.034    25114    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      9     0.033    25126    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                     10     0.033    25131    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                     11     0.033    25134    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                     12     0.033    25136    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                     13     0.033    25138    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                     14     0.033    25139    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                     15     0.033    25142    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                     16     0.033    25143    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                     17     0.033    25143    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.033    25143    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1022 fit() - Spatial fit of flatfield for 79926/82408  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 79926/79926 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.000        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flat.py 396 tweak_slit_edges() - Tweaking left slit boundary by 5.1% % (2.36 pixels)
+[INFO]    :: flat.py 450 tweak_slit_edges() - Tweaking right slit boundary by 4.7% % (2.15 pixels)
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 79926/79926 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.003        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.003        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1353 spatial_fit_finecorr() - Performing a fine correction to the spatial illumination (slit=487)
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=10 reached in robust_polyfit_djs
+[INFO]    :: flatfield.py 1539 spatillum_finecorr_qa() - Generating QA for spatial illumination fine correction
+[INFO]    :: flatfield.py 1614 spatillum_finecorr_qa() - Saved QA:
+             /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/QA/PNGs/Spatillum_FineCorr_A_2_DET01_S0487_spatillum_finecorr.png
+[INFO]    :: flatfield.py 1138 fit() - Performing 2D illumination + scattered light flat field fit
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 3 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 47202/61078 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1    66.182    34530    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     3.062    35186    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     2.506    35398    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     2.367    35474    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      5     2.320    35514    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      6     2.298    35534    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      7     2.286    35545    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      8     2.280    35548    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      9     2.279    35551    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                     10     2.277    35552    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                     11     2.277    35552    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     2.277    35552    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 852 fit() - Modeling the flat-field response for slit spat_id=545: 8/16
+[INFO]    :: flatfield.py 933 fit() - Spectral fit of flatfield for 61825/71544  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 61825/61825 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.008      201    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.001      211    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.001      212    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.001      212    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.001      212    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1022 fit() - Spatial fit of flatfield for 86467/87017  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 86467/86467 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.000        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flat.py 396 tweak_slit_edges() - Tweaking left slit boundary by 3.2% % (1.45 pixels)
+[INFO]    :: flat.py 450 tweak_slit_edges() - Tweaking right slit boundary by 3.1% % (1.42 pixels)
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 86467/86467 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.005        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.005        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1353 spatial_fit_finecorr() - Performing a fine correction to the spatial illumination (slit=545)
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=10 reached in robust_polyfit_djs
+[INFO]    :: flatfield.py 1539 spatillum_finecorr_qa() - Generating QA for spatial illumination fine correction
+[INFO]    :: flatfield.py 1614 spatillum_finecorr_qa() - Saved QA:
+             /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/QA/PNGs/Spatillum_FineCorr_A_2_DET01_S0545_spatillum_finecorr.png
+[INFO]    :: flatfield.py 1138 fit() - Performing 2D illumination + scattered light flat field fit
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 3 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 66456/67073 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     2.193     1784    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.868     1842    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.850     1853    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.845     1859    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      5     0.843     1860    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      6     0.843     1860    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.843     1860    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 852 fit() - Modeling the flat-field response for slit spat_id=602: 9/16
+[INFO]    :: flatfield.py 933 fit() - Spectral fit of flatfield for 65542/75876  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 65542/65542 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.007      201    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.001      212    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.001      213    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.001      213    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.001      213    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1022 fit() - Spatial fit of flatfield for 91924/92466  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 91924/91924 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.000        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flat.py 396 tweak_slit_edges() - Tweaking left slit boundary by 3.3% % (1.50 pixels)
+[INFO]    :: flat.py 450 tweak_slit_edges() - Tweaking right slit boundary by 3.2% % (1.44 pixels)
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 91924/91924 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.005        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.005        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1353 spatial_fit_finecorr() - Performing a fine correction to the spatial illumination (slit=602)
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=10 reached in robust_polyfit_djs
+[INFO]    :: flatfield.py 1539 spatillum_finecorr_qa() - Generating QA for spatial illumination fine correction
+[INFO]    :: flatfield.py 1614 spatillum_finecorr_qa() - Saved QA:
+             /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/QA/PNGs/Spatillum_FineCorr_A_2_DET01_S0602_spatillum_finecorr.png
+[INFO]    :: flatfield.py 1138 fit() - Performing 2D illumination + scattered light flat field fit
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 3 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 70448/71058 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     2.214     1785    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.875     1846    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.857     1853    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.855     1855    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      5     0.854     1857    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      6     0.854     1857    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.854     1857    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 840 fit() - Skipping bad slit: 658
+[INFO]    :: flatfield.py 852 fit() - Modeling the flat-field response for slit spat_id=713: 11/16
+[INFO]    :: flatfield.py 933 fit() - Spectral fit of flatfield for 74700/86499  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 74700/74700 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.002       51    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.001       59    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.001       60    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.001       60    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.001       60    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1022 fit() - Spatial fit of flatfield for 104609/105168  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 104609/104609 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.000        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flat.py 396 tweak_slit_edges() - Tweaking left slit boundary by 3.3% % (1.51 pixels)
+[INFO]    :: flat.py 450 tweak_slit_edges() - Tweaking right slit boundary by 3.3% % (1.52 pixels)
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 104609/104609 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.005        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.005        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1353 spatial_fit_finecorr() - Performing a fine correction to the spatial illumination (slit=713)
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=10 reached in robust_polyfit_djs
+[INFO]    :: flatfield.py 1539 spatillum_finecorr_qa() - Generating QA for spatial illumination fine correction
+[INFO]    :: flatfield.py 1614 spatillum_finecorr_qa() - Saved QA:
+             /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/QA/PNGs/Spatillum_FineCorr_A_2_DET01_S0713_spatillum_finecorr.png
+[INFO]    :: flatfield.py 1138 fit() - Performing 2D illumination + scattered light flat field fit
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 3 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 80266/80772 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     1.778     1651    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.838     1717    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.821     1731    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.816     1740    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      5     0.814     1744    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      6     0.813     1748    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      7     0.812     1752    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      8     0.812     1753    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      9     0.811     1753    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.811     1753    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 852 fit() - Modeling the flat-field response for slit spat_id=769: 12/16
+[INFO]    :: flatfield.py 933 fit() - Spectral fit of flatfield for 77799/90083  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 77799/77799 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.001       59    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.001       69    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.001       70    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.001       70    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.001       70    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1022 fit() - Spatial fit of flatfield for 109464/109973  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 109464/109464 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.000        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flat.py 396 tweak_slit_edges() - Tweaking left slit boundary by 3.5% % (1.58 pixels)
+[INFO]    :: flat.py 450 tweak_slit_edges() - Tweaking right slit boundary by 3.3% % (1.51 pixels)
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 109464/109464 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.005        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.005        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1353 spatial_fit_finecorr() - Performing a fine correction to the spatial illumination (slit=769)
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=10 reached in robust_polyfit_djs
+[INFO]    :: flatfield.py 1539 spatillum_finecorr_qa() - Generating QA for spatial illumination fine correction
+[INFO]    :: flatfield.py 1614 spatillum_finecorr_qa() - Saved QA:
+             /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/QA/PNGs/Spatillum_FineCorr_A_2_DET01_S0769_spatillum_finecorr.png
+[INFO]    :: flatfield.py 1138 fit() - Performing 2D illumination + scattered light flat field fit
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 3 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 83466/83951 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     1.954     1835    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.852     1949    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.825     1973    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.820     1981    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      5     0.818     1984    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      6     0.817     1988    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      7     0.816     1991    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      8     0.816     1992    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      9     0.816     1992    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.816     1992    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 852 fit() - Modeling the flat-field response for slit spat_id=826: 13/16
+[INFO]    :: flatfield.py 933 fit() - Spectral fit of flatfield for 77719/90097  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 77719/77719 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.002       10    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.000       10    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000       10    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1022 fit() - Spatial fit of flatfield for 109501/110087  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 109501/109501 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.000        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flat.py 396 tweak_slit_edges() - Tweaking left slit boundary by 3.5% % (1.58 pixels)
+[INFO]    :: flat.py 450 tweak_slit_edges() - Tweaking right slit boundary by 3.5% % (1.59 pixels)
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 109501/109501 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.005        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.005        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1353 spatial_fit_finecorr() - Performing a fine correction to the spatial illumination (slit=826)
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=10 reached in robust_polyfit_djs
+[INFO]    :: flatfield.py 1539 spatillum_finecorr_qa() - Generating QA for spatial illumination fine correction
+[INFO]    :: flatfield.py 1614 spatillum_finecorr_qa() - Saved QA:
+             /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/QA/PNGs/Spatillum_FineCorr_A_2_DET01_S0826_spatillum_finecorr.png
+[INFO]    :: flatfield.py 1138 fit() - Performing 2D illumination + scattered light flat field fit
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 3 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 83352/83823 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     1.794     1627    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.850     1717    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.830     1731    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.828     1731    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.828     1731    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 840 fit() - Skipping bad slit: 885
+[INFO]    :: flatfield.py 852 fit() - Modeling the flat-field response for slit spat_id=948: 15/16
+[INFO]    :: flatfield.py 933 fit() - Spectral fit of flatfield for 76486/88967  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 76486/76486 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.061      471    1.00                  
+[INFO]    :: fitting.py 1209 bspline_profile() -                      2        --       --      --                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.000      471    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000      471    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1022 fit() - Spatial fit of flatfield for 108060/108957  pixels in the slit.
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 108060/108060 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.000        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.000        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flat.py 396 tweak_slit_edges() - Tweaking left slit boundary by 3.7% % (1.66 pixels)
+[INFO]    :: flat.py 450 tweak_slit_edges() - Tweaking right slit boundary by 3.8% % (1.70 pixels)
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 1 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 108060/108060 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     0.005        0    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.005        0    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 1353 spatial_fit_finecorr() - Performing a fine correction to the spatial illumination (slit=948)
+[WARNING] :: fitting.py 446 robust_fit() - Maximum number of iterations maxiter=10 reached in robust_polyfit_djs
+[INFO]    :: flatfield.py 1539 spatillum_finecorr_qa() - Generating QA for spatial illumination fine correction
+[INFO]    :: flatfield.py 1614 spatillum_finecorr_qa() - Saved QA:
+             /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/QA/PNGs/Spatillum_FineCorr_A_2_DET01_S0948_spatillum_finecorr.png
+[INFO]    :: flatfield.py 1138 fit() - Performing 2D illumination + scattered light flat field fit
+[INFO]    :: fitting.py 1135 bspline_profile() - B-spline fit:
+[INFO]    :: fitting.py 1136 bspline_profile() -     npoly = 3 profile basis functions
+[INFO]    :: fitting.py 1137 bspline_profile() -     ngood = 81285/82253 measurements
+[INFO]    :: fitting.py 1138 bspline_profile() - ***************** Iter     Chi^2    N Rej  R. Fac *****************
+[INFO]    :: fitting.py 1142 bspline_profile() -                   ----  --------  -------  ------                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      1     2.186     2178    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      2     0.793     2272    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      3     0.771     2283    1.00                  
+[INFO]    :: fitting.py 1236 bspline_profile() -                      4     0.769     2283    1.00                  
+[INFO]    :: fitting.py 1251 bspline_profile() -                   DONE     0.769     2283    1.00                  
+[INFO]    :: fitting.py 1254 bspline_profile() - *******************************************************************
+[INFO]    :: flatfield.py 840 fit() - Skipping bad slit: 1018
+[INFO]    :: io.py 648 write_to_fits() - File written to: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterFlat_A_2_DET01.fits
+[INFO]    :: io.py 646 write_to_fits() - Compressing file: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterSlits_A_2_DET01.fits
+[INFO]    :: io.py 648 write_to_fits() - File written to: /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterSlits_A_2_DET01.fits.gz
+[INFO]    :: calibrations.py 873 run_the_steps() - Calibration complete and/or fully loaded!
+[INFO]    :: calibrations.py 874 run_the_steps() - #######################################################################
+[INFO]    :: pypeit.py 769 objfind_one() - Object finding begins for XSHOO.2017-08-18T23:05:20.558-STD,FLUX_XShooter_NIR_20170818T230520.558 on det=1
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T23:05:20.558.fits.
+[INFO]    :: rawimage.py 531 process() - Performing basic image processing on XSHOO.2017-08-18T23:09:41.465.fits.
+[INFO]    :: find_objects.py 180 __init__() - Initialising slits
+[INFO]    :: find_objects.py 237 __init__() - Generating tilts image from fit in waveTilts
+[INFO]    :: find_objects.py 540 global_skysub() - Skipping global sky-subtraction for standard star.
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 25
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 24
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 23
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 22
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 20
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 19
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 18
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 16
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 15
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 14
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 12
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 426 ech_fof_sobjs() - FOF matching found 1 unique objects
+[INFO]    :: findobj_skymask.py 925 ech_pca_traces() - Fitting echelle object finding PCA for object 1\1 with median SNR = 61.200
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 11 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 1 component(s), containing 99.828% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [3]
+[INFO]    :: find_objects.py 452 find_objects() - Finding objects in the negative image
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 25
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 24
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 23
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 22
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 20
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 19
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 18
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 16
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 15
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 14
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 302 ech_findobj_ineach_order() - Finding objects on order # 12
+[INFO]    :: findobj_skymask.py 2537 objs_in_slit() - Automatic finding routine found 1 objects
+[INFO]    :: findobj_skymask.py 2541 objs_in_slit() - Fitting the object traces
+[INFO]    :: findobj_skymask.py 2680 objs_in_slit() - Successfully traced a total of 1 objects
+[INFO]    :: findobj_skymask.py 426 ech_fof_sobjs() - FOF matching found 1 unique objects
+[INFO]    :: findobj_skymask.py 925 ech_pca_traces() - Fitting echelle object finding PCA for object 1\1 with median SNR = 61.739
+[INFO]    :: pca.py 102 pca_decomposition() - The unconstrained PCA yields 11 components.
+[INFO]    :: pca.py 116 pca_decomposition() - PCA will include 1 component(s), containing 99.826% of the total variance.
+[INFO]    :: tracepca.py 411 pca_trace_object() - Order of function fit to each component: [3]
+[INFO]    :: find_objects.py 271 create_skymask() - Generating skymask for slit # 163
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 1 within a radius = 3.529495169336282 pixels
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 2 within a radius = 3.9893222044937837 pixels
+[INFO]    :: find_objects.py 271 create_skymask() - Generating skymask for slit # 232
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 1 within a radius = 3.410862698839023 pixels
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 2 within a radius = 3.7723152222373924 pixels
+[INFO]    :: find_objects.py 271 create_skymask() - Generating skymask for slit # 299
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 1 within a radius = 3.384128879979559 pixels
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 2 within a radius = 3.7001969381111577 pixels
+[INFO]    :: find_objects.py 271 create_skymask() - Generating skymask for slit # 364
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 1 within a radius = 3.359388408313482 pixels
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 2 within a radius = 3.604200794460212 pixels
+[INFO]    :: find_objects.py 271 create_skymask() - Generating skymask for slit # 487
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 1 within a radius = 3.392286190429203 pixels
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 2 within a radius = 3.3147933958913605 pixels
+[INFO]    :: find_objects.py 271 create_skymask() - Generating skymask for slit # 545
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 1 within a radius = 3.277259734730459 pixels
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 2 within a radius = 3.4226641996227944 pixels
+[INFO]    :: find_objects.py 271 create_skymask() - Generating skymask for slit # 602
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 1 within a radius = 3.194795027455794 pixels
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 2 within a radius = 3.471787629972706 pixels
+[INFO]    :: find_objects.py 271 create_skymask() - Generating skymask for slit # 713
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 1 within a radius = 3.153561610331023 pixels
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 2 within a radius = 3.4037746985495723 pixels
+[INFO]    :: find_objects.py 271 create_skymask() - Generating skymask for slit # 769
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 1 within a radius = 3.095268585718885 pixels
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 2 within a radius = 3.3380712816234146 pixels
+[INFO]    :: find_objects.py 271 create_skymask() - Generating skymask for slit # 826
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 1 within a radius = 3.1286197552916475 pixels
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 2 within a radius = 3.274805280333147 pixels
+[INFO]    :: find_objects.py 271 create_skymask() - Generating skymask for slit # 948
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 1 within a radius = 2.913923364762901 pixels
+[INFO]    :: findobj_skymask.py 109 create_skymask() - Masking around object 2 within a radius = 3.18005383963438 pixels
+[INFO]    :: find_objects.py 540 global_skysub() - Skipping global sky-subtraction for standard star.
+[INFO]    :: find_objects.py 387 run() - Skipping 2nd run of finding objects
+[INFO]    :: pypeit.py 719 calib_one() - Building/loading calibrations for detector 1
+[INFO]    :: datamodel.py 1554 from_file() - Loading DarkImage from /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterDark_A_2_DET01.fits
+[INFO]    :: datamodel.py 1554 from_file() - Loading SlitTraceSet from /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterSlits_A_2_DET01.fits.gz
+[INFO]    :: datamodel.py 1554 from_file() - Loading ArcImage from /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterArc_A_2_DET01.fits
+[INFO]    :: datamodel.py 1554 from_file() - Loading TiltImage from /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterTiltimg_A_2_DET01.fits
+[INFO]    :: datamodel.py 1554 from_file() - Loading WaveCalib from /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterWaveCalib_A_2_DET01.fits
+[INFO]    :: datamodel.py 1554 from_file() - Loading WaveTilts from /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterTilts_A_2_DET01.fits
+[INFO]    :: datamodel.py 1554 from_file() - Loading FlatImages from /home/kostas/Documents/Uni/Bachelor/PypeItCleanRuns/NIR/STAR_experiment_OHlines/Masters/MasterFlat_A_2_DET01.fits
+[WARNING] :: datamodel.py 969 _parse() - Extensions to be read by bspline have no data!
+[WARNING] :: datamodel.py 969 _parse() - Extensions to be read by bspline have no data!
+[WARNING] :: datamodel.py 969 _parse() - Extensions to be read by bspline have no data!
+[WARNING] :: datamodel.py 969 _parse() - Extensions to be read by bspline have no data!
+[WARNING] :: datamodel.py 969 _parse() - Extensions to be read by bspline have no data!
+[INFO]    :: calibrations.py 873 run_the_steps() - Calibration complete and/or fully loaded!
+[INFO]    :: calibrations.py 874 run_the_steps() - #######################################################################
+[INFO]    :: pypeit.py 911 extract_one() - Extraction begins for XSHOO.2017-08-18T23:05:20.558-STD,FLUX_XShooter_NIR_20170818T230520.558 on det=1
+[INFO]    :: extraction.py 165 __init__() - Initialising slits
+[INFO]    :: extraction.py 216 __init__() - Generating tilts image from fit in waveTilts
+[INFO]    :: extraction.py 223 __init__() - Generating wavelength image
+[INFO]    :: skysub.py 1252 ech_local_skysub_extract() - 
+             Reducing orders in order of S/N of brightest object:
+             ---------------------------
+             slit    order          S/N
+             ---------------------------
+             1       25           98.18
+             2       24           91.80
+             4       22           91.37
+             3       23           84.23
+             6       20           76.21
+             10      16           61.20
+             8       18           60.83
+             11      15           59.57
+             7       19           52.14
+             12      14           28.89
+             14      12           17.50
+             
+[INFO]    :: skysub.py 1261 ech_local_skysub_extract() - Local sky subtraction and extraction for slit/order: 1/25
+[INFO]    :: skysub.py 810 local_skysub_extract() - --------------------------REDUCING: Iteration #  1 of  4---------------------------------------------------
+[INFO]    :: skysub.py 818 local_skysub_extract() - ----------------------------------- PROFILE FITTING --------------------------------------------------------
+[INFO]    :: skysub.py 819 local_skysub_extract() - Fitting profile for obj # 1 of 2
+[INFO]    :: skysub.py 820 local_skysub_extract() - At x = 153.28 on slit # 25
+[INFO]    :: skysub.py 821 local_skysub_extract() - ------------------------------------------------------------------------------------------------------------
+[WARNING] :: extract.py 792 fit_profile() - There are no pixels eligible to be fit for the object profile.
+             There is likely an issue in local_skysub_extract. Returning a Gassuain with fwhm=3.529
+[INFO]    :: extract.py 658 return_gaussian() - obj # 1 on slit # 25, iter # 1:, FWHM=  3.53, S/N=   0.000
+[INFO]    :: skysub.py 818 local_skysub_extract() - ----------------------------------- PROFILE FITTING --------------------------------------------------------
+[INFO]    :: skysub.py 819 local_skysub_extract() - Fitting profile for obj # -1 of 2
+[INFO]    :: skysub.py 820 local_skysub_extract() - At x = 174.12 on slit # 25
+[INFO]    :: skysub.py 821 local_skysub_extract() - ------------------------------------------------------------------------------------------------------------
+[WARNING] :: extract.py 792 fit_profile() - There are no pixels eligible to be fit for the object profile.
+             There is likely an issue in local_skysub_extract. Returning a Gassuain with fwhm=3.989
+[INFO]    :: extract.py 658 return_gaussian() - obj # -1 on slit # 25, iter # 1:, FWHM=  3.99, S/N=   0.000

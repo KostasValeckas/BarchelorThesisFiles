@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "/home/kostas/anaconda3/envs/pypeit/bin/run_pypeit", line 8, in <module>
+    sys.exit(RunPypeIt.entry_point())
+  File "/home/kostas/anaconda3/envs/pypeit/lib/python3.9/site-packages/pypeit/scripts/scriptbase.py", line 112, in entry_point
+    cls.main(cls.parse_args())
+  File "/home/kostas/anaconda3/envs/pypeit/lib/python3.9/site-packages/pypeit/scripts/run_pypeit.py", line 107, in main
+    pypeIt.reduce_all()
+  File "/home/kostas/anaconda3/envs/pypeit/lib/python3.9/site-packages/pypeit/pypeit.py", line 438, in reduce_all
+    std_spec2d, std_sobjs = self.reduce_exposure(frames, bg_frames=bg_frames)
+  File "/home/kostas/anaconda3/envs/pypeit/lib/python3.9/site-packages/pypeit/pypeit.py", line 658, in reduce_exposure
+    = self.extract_one(frames, self.det, sciImg_list[i], objFind_list[i],
+  File "/home/kostas/anaconda3/envs/pypeit/lib/python3.9/site-packages/pypeit/pypeit.py", line 925, in extract_one
+    skymodel, objmodel, ivarmodel, outmask, sobjs, waveImg, tilts = self.exTract.run()
+  File "/home/kostas/anaconda3/envs/pypeit/lib/python3.9/site-packages/pypeit/extraction.py", line 408, in run
+    = self.extract(self.global_sky, model_noise=model_noise, spat_pix=spat_pix)
+  File "/home/kostas/anaconda3/envs/pypeit/lib/python3.9/site-packages/pypeit/extraction.py", line 351, in extract
+    self.local_skysub_extract(global_sky, self.sobjs_obj,
+  File "/home/kostas/anaconda3/envs/pypeit/lib/python3.9/site-packages/pypeit/extraction.py", line 875, in local_skysub_extract
+    = skysub.ech_local_skysub_extract(self.sciImg.image, self.sciImg.ivar,
+  File "/home/kostas/anaconda3/envs/pypeit/lib/python3.9/site-packages/pypeit/core/skysub.py", line 1334, in ech_local_skysub_extract
+    = local_skysub_extract(sciimg, sciivar, tilts, waveimg, global_sky, thismask,
+  File "/home/kostas/anaconda3/envs/pypeit/lib/python3.9/site-packages/pypeit/core/skysub.py", line 883, in local_skysub_extract
+    fullbkpt = optimal_bkpts(bkpts_optimal, bsp_now, piximg, localmask, debug=(debug_bkpts & (iiter == niter)),
+  File "/home/kostas/anaconda3/envs/pypeit/lib/python3.9/site-packages/pypeit/core/skysub.py", line 428, in optimal_bkpts
+    piximg_min = pix.min()
+  File "/home/kostas/anaconda3/envs/pypeit/lib/python3.9/site-packages/numpy/core/_methods.py", line 45, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+ValueError: zero-size array to reduction operation minimum which has no identity
+
