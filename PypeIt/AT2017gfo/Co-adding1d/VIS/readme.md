@@ -1,6 +1,6 @@
 ### The co-adding is excecuted by calling: 
 
-pypeit_coadd_1dspec vlt_xshooter_vis.coad1d
+pypeit_coadd_1dspec vlt_xshooter_vis.coadd1d
 
 To see how the '.coadd1' file was created, please refer to the 'Post-MainRunSetup' directory.
 
