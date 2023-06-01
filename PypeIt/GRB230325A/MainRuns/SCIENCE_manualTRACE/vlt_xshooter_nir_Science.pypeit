@@ -1,0 +1,40 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.12.2
+# UTC 2023-05-29T11:04:23.323
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = vlt_xshooter_nir
+# Setup
+setup read
+Setup A:
+  arm: NIR
+setup end
+
+# Data block 
+data read
+ path ..
+                               filename |       frametype |         ra |       dec |    target | dispname |   decker | binning |            mjd | airmass | exptime | arm |    dither | calib | comb_id | bkg_id | manual
+#######
+     XSHOO.2023-03-22T16:25:43.505.fits |    lampoffflats |       None |      None | LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68453131 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1 |
+     XSHOO.2023-03-22T16:26:14.251.fits |    lampoffflats |       None |      None | LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68488716 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1 |
+     XSHOO.2023-03-22T16:26:47.077.fits |    lampoffflats |       None |      None | LAMP,FLAT |  default | 0.9x11JH |     1,1 |  60025.6852671 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1 |
+     XSHOO.2023-03-22T16:27:17.825.fits |    lampoffflats |       None |      None | LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68562297 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1 |
+     XSHOO.2023-03-22T16:27:51.343.fits |    lampoffflats |       None |      None | LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68601091 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1 |
+#######
+     XSHOO.2023-03-22T16:25:26.744.fits | pixelflat,trace |       None |      None | LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68433731 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1 |
+     XSHOO.2023-03-22T16:25:59.571.fits | pixelflat,trace |       None |      None | LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68471726 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1 |
+     XSHOO.2023-03-22T16:26:30.318.fits | pixelflat,trace |       None |      None | LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68507313 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1 |
+     XSHOO.2023-03-22T16:27:03.144.fits | pixelflat,trace |       None |      None | LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68545305 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1 |
+     XSHOO.2023-03-22T16:27:33.892.fits | pixelflat,trace |       None |      None | LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68580893 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1 |
+#######
+     XSHOO.2023-03-25T09:00:46.709.fits |arc,tilt,science | 296.848516 | -46.07566 |GRB230325A |  default | 0.9x11JH |     1,1 | 60028.37554061 |   1.414 |   300.0 | NIR |  2.678116 |     0 |       1 |      2 | 1:441.937:1390.586:4.2
+     XSHOO.2023-03-25T09:05:54.196.fits |arc,tilt,science | 296.848516 | -46.07566 |GRB230325A |  default | 0.9x11JH |     1,1 | 60028.37909949 |   1.393 |   300.0 | NIR |  2.678116 |     0 |       1 |      2 | 1:441.937:1390.586:4.2
+     XSHOO.2023-03-25T09:12:32.132.fits |arc,tilt,science | 296.850629 | -46.07585 |GRB230325A |  default | 0.9x11JH |     1,1 | 60028.38370523 |   1.367 |   300.0 | NIR | -2.646473 |     0 |       2 |      1 |1:463.096:1396.590:4.2
+     XSHOO.2023-03-25T09:17:40.284.fits |arc,tilt,science | 296.850629 | -46.07585 |GRB230325A |  default | 0.9x11JH |     1,1 |  60028.3872718 |   1.348 |   300.0 | NIR | -2.646473 |     0 |       2 |      1 |1:463.096:1396.590:4.2
+#######
+     XSHOO.2023-03-23T10:54:02.152.fits |            dark |       None |      None |      DARK |  default |    Blind |     1,1 | 60026.45419157 |    None |   300.0 | NIR |      None |     0 |      -1 |     -1 |
+     XSHOO.2023-03-23T10:59:09.645.fits |            dark |       None |      None |      DARK |  default |    Blind |     1,1 | 60026.45775052 |    None |   300.0 | NIR |      None |     0 |      -1 |     -1 |
+     XSHOO.2023-03-23T11:04:17.132.fits |            dark |       None |      None |      DARK |  default |    Blind |     1,1 |  60026.4613094 |    None |   300.0 | NIR |      None |     0 |      -1 |     -1 |
+#######
+data end
+

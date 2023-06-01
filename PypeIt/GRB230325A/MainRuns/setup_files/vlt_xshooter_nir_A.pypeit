@@ -1,0 +1,111 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.12.2
+# UTC 2023-05-30T10:10:09.573
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = vlt_xshooter_nir
+
+# Setup
+setup read
+Setup A:
+  arm: NIR
+setup end
+
+# Data block 
+data read
+ path .
+                               filename |       frametype |         ra |       dec |                 target | dispname |   decker | binning |            mjd | airmass | exptime | arm |    dither | calib | comb_id | bkg_id
+M.XSHOOTER.2013-01-23T11:08:56.715.fits |            None |       None |      None |              LAMP,WAVE |  default |  Pin_row |     1,1 |        56312.0 |    None |    None | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T08:58:18.633.fits |            None |        0.0 |       0.0 |                        |  default |     None |     1,1 |        55103.5 |    None |     0.0 | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T09:46:50.736.fits |            None |        0.0 |       0.0 |                        |  default |     None |     1,1 |        55103.5 |    None |     0.0 | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T09:48:15.690.fits |            None |        0.0 |       0.0 |                        |  default |     None |     1,1 |        55103.5 |    None |     0.0 | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T09:49:28.160.fits |            None |        0.0 |       0.0 |                        |  default |     None |     1,1 |        55103.5 |    None |     0.0 | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T09:51:11.626.fits |            None |       None |      None | FLAT,LINEARITY,DETCHAR |  default | 1.0x12.6 |     1,1 |        55103.5 |    None |    None | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T10:17:53.780.fits |            None |       None |      None |                   None |  default |   0.6x11 |     1,1 |        55103.5 |    None |    None | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T10:17:57.436.fits |            None |       None |      None |                   None |  default |   0.9x11 |     1,1 |        55103.5 |    None |    None | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T10:18:05.116.fits |            None |       None |      None |                   None |  default |   1.2x11 |     1,1 |        55103.5 |    None |    None | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T10:18:13.436.fits |            None |       None |      None |                   None |  default |  Pin_0.5 |     1,1 |        55103.5 |    None |    None | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T10:18:17.120.fits |            None |       None |      None |                   None |  default |   5.0x11 |     1,1 |        55103.5 |    None |    None | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T10:18:22.536.fits |            None |       None |      None |                   None |  default |  Pin_row |     1,1 |        55103.5 |    None |    None | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T10:18:32.813.fits |            None |        0.0 |       0.0 |                        |  default | 0.9x11JH |     1,1 |        55103.5 |    None |     0.0 | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T10:19:59.576.fits |            None |        0.0 |       0.0 |                        |  default |     None |     1,1 |        55103.5 |    None |     0.0 | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T10:40:07.523.fits |            None | 290.151267 |  -7.66157 |         EG131-specphot |  default |   5.0x11 |     1,1 |        55103.5 |   1.089 |    None | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2019-04-04T10:40:22.400.fits |            None | 108.977275 | -57.31844 |              SN-2009XX |  default | 0.9x11JH |     1,1 |        55103.5 |   1.212 |    None | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2020-03-30T16:04:20.590.fits |            None |       None |      None |                   None |  default |     None |     1,1 |        55103.5 |    None |    None | NIR |      None |  None |      -1 |     -1
+M.XSHOOTER.2020-03-30T16:05:00.116.fits |            None |       None |      None |                   None |  default |     None |     1,1 |        55103.5 |    None |    None | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-21T21:57:33.824.fits |            None |       None |      None |            LAMP,FMTCHK |  default |  Pin_0.5 |     1,1 | 60024.91497481 |    None |    10.0 | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-21T21:58:38.257.fits |            None |       None |      None |            LAMP,FMTCHK |  default |  Pin_0.5 |     1,1 | 60024.91572057 |    None |    10.0 | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-21T22:05:52.639.fits |            None |       None |      None |          LAMP,ORDERDEF |  default |  Pin_0.5 |     1,1 | 60024.92074814 |    None |     1.0 | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-21T22:06:03.254.fits |            None |       None |      None |          LAMP,ORDERDEF |  default |  Pin_0.5 |     1,1 | 60024.92087099 |    None |     1.0 | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-23T09:05:05.440.fits |            None | 245.891616 | -39.22949 |               LAMP,AFC |  default |  Pin_0.5 |     1,1 | 60026.37853519 |   1.034 |     2.0 | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-23T15:29:58.126.fits |            None |       None |      None |            LAMP,FMTCHK |  default |  Pin_0.5 |     1,1 | 60026.64581164 |    None |    10.0 | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-23T15:31:02.560.fits |            None |       None |      None |            LAMP,FMTCHK |  default |  Pin_0.5 |     1,1 | 60026.64655741 |    None |    10.0 | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-23T15:38:15.601.fits |            None |       None |      None |          LAMP,ORDERDEF |  default |  Pin_0.5 |     1,1 | 60026.65156946 |    None |     1.0 | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-23T15:38:26.215.fits |            None |       None |      None |          LAMP,ORDERDEF |  default |  Pin_0.5 |     1,1 |  60026.6516923 |    None |     1.0 | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-25T01:18:15.155.fits |            None | 121.188583 |  18.84187 |               LAMP,AFC |  default |  Pin_0.5 |     1,1 | 60028.05434207 |   1.399 |     2.0 | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-25T08:46:06.707.fits |            None | 296.849375 | -46.07561 |               LAMP,AFC |  default |   5.0x11 |     1,1 |  60028.3653554 |    1.48 |     2.0 | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-25T08:46:23.091.fits |            None | 296.849375 | -46.07561 |               LAMP,AFC |  default |   5.0x11 |     1,1 | 60028.36554504 |   1.479 |     2.0 | NIR |      None |  None |      -1 |     -1
+     XSHOO.2023-03-23T15:40:23.542.fits |        arc,tilt |       None |      None |              LAMP,WAVE |  default |  Pin_row |     1,1 | 60026.65305025 |    None |  0.6651 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T15:40:51.651.fits |        arc,tilt |       None |      None |              LAMP,WAVE |  default |  Pin_row |     1,1 | 60026.65337559 |    None |  0.6651 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:22:44.071.fits |            dark |       None |      None |              LAMP,FLAT |  default |   0.9x11 |     1,1 | 60025.68245453 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:23:15.508.fits |            dark |       None |      None |              LAMP,FLAT |  default |   0.9x11 |     1,1 | 60025.68281838 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:23:48.334.fits |            dark |       None |      None |              LAMP,FLAT |  default |   0.9x11 |     1,1 | 60025.68319831 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:24:20.469.fits |            dark |       None |      None |              LAMP,FLAT |  default |   0.9x11 |     1,1 | 60025.68357024 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:24:53.987.fits |            dark |       None |      None |              LAMP,FLAT |  default |   0.9x11 |     1,1 | 60025.68395818 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:25:43.505.fits |            dark |       None |      None |              LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68453131 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:26:14.251.fits |            dark |       None |      None |              LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68488716 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:26:47.077.fits |            dark |       None |      None |              LAMP,FLAT |  default | 0.9x11JH |     1,1 |  60025.6852671 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:27:17.825.fits |            dark |       None |      None |              LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68562297 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:27:51.343.fits |            dark |       None |      None |              LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68601091 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:15:27.960.fits |            dark |       None |      None |              LAMP,FLAT |  default |   1.2x11 |     1,1 | 60026.51074028 |    None |    6.24 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:15:56.627.fits |            dark |       None |      None |              LAMP,FLAT |  default |   1.2x11 |     1,1 | 60026.51107207 |    None |    6.24 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:16:23.214.fits |            dark |       None |      None |              LAMP,FLAT |  default |   1.2x11 |     1,1 | 60026.51137979 |    None |    6.24 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:16:52.577.fits |            dark |       None |      None |              LAMP,FLAT |  default |   1.2x11 |     1,1 | 60026.51171964 |    None |    6.24 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:17:21.245.fits |            dark |       None |      None |              LAMP,FLAT |  default |   1.2x11 |     1,1 | 60026.51205145 |    None |    6.24 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:21:15.853.fits |            dark |       None |      None |              LAMP,FLAT |  default |   5.0x11 |     1,1 | 60026.51476682 |    None |  1.4976 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:21:33.594.fits |            dark |       None |      None |              LAMP,FLAT |  default |   5.0x11 |     1,1 | 60026.51497215 |    None |  1.4976 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:21:51.334.fits |            dark |       None |      None |              LAMP,FLAT |  default |   5.0x11 |     1,1 | 60026.51517748 |    None |  1.4976 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:22:11.290.fits |            dark |       None |      None |              LAMP,FLAT |  default |   5.0x11 |     1,1 | 60026.51540845 |    None |  1.4976 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:22:26.814.fits |            dark |       None |      None |              LAMP,FLAT |  default |   5.0x11 |     1,1 | 60026.51558813 |    None |  1.4976 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T15:58:09.263.fits |            dark |       None |      None |              LAMP,FLAT |  default |   0.6x11 |     1,1 | 60026.66538499 |    None |   12.48 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T15:58:50.409.fits |            dark |       None |      None |              LAMP,FLAT |  default |   0.6x11 |     1,1 | 60026.66586122 |    None |   12.48 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T15:59:31.556.fits |            dark |       None |      None |              LAMP,FLAT |  default |   0.6x11 |     1,1 | 60026.66633745 |    None |   12.48 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T16:00:10.621.fits |            dark |       None |      None |              LAMP,FLAT |  default |   0.6x11 |     1,1 | 60026.66678959 |    None |   12.48 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T16:00:52.461.fits |            dark |       None |      None |              LAMP,FLAT |  default |   0.6x11 |     1,1 | 60026.66727385 |    None |   12.48 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:22:58.058.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   0.9x11 |     1,1 | 60025.68261641 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:23:31.576.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   0.9x11 |     1,1 | 60025.68300435 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:24:02.320.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   0.9x11 |     1,1 | 60025.68336019 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:24:36.535.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   0.9x11 |     1,1 | 60025.68375619 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:25:26.744.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68433731 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:25:59.571.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68471726 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:26:30.318.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68507313 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:27:03.144.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68545305 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-22T16:27:33.892.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default | 0.9x11JH |     1,1 | 60025.68580893 |    None |    8.32 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:15:13.277.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   1.2x11 |     1,1 | 60026.51057034 |    None |    6.24 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:15:41.947.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   1.2x11 |     1,1 | 60026.51090217 |    None |    6.24 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:16:08.535.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   1.2x11 |     1,1 |  60026.5112099 |    None |    6.24 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:16:37.204.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   1.2x11 |     1,1 | 60026.51154171 |    None |    6.24 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:17:06.566.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   1.2x11 |     1,1 | 60026.51188155 |    None |    6.24 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:21:04.750.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   5.0x11 |     1,1 | 60026.51463831 |    None |  1.4976 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:21:25.457.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   5.0x11 |     1,1 | 60026.51487798 |    None |  1.4976 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:21:43.198.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   5.0x11 |     1,1 | 60026.51508331 |    None |  1.4976 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:22:00.937.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   5.0x11 |     1,1 | 60026.51528862 |    None |  1.4976 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T12:22:18.680.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   5.0x11 |     1,1 | 60026.51549398 |    None |  1.4976 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T15:57:48.344.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   0.6x11 |     1,1 | 60026.66514287 |    None |   12.48 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T15:58:29.489.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   0.6x11 |     1,1 | 60026.66561908 |    None |   12.48 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T15:59:10.635.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   0.6x11 |     1,1 | 60026.66609531 |    None |   12.48 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T15:59:51.780.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   0.6x11 |     1,1 | 60026.66657153 |    None |   12.48 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T16:00:30.849.fits | pixelflat,trace |       None |      None |              LAMP,FLAT |  default |   0.6x11 |     1,1 | 60026.66702372 |    None |   12.48 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-25T01:35:33.647.fits |         science | 121.189067 |  18.84148 |           STD,TELLURIC |  default | 0.9x11JH |     1,1 | 60028.06636165 |   1.426 |     6.0 | NIR |       2.5 |     0 |      10 |     -1
+     XSHOO.2023-03-25T01:36:30.233.fits |         science |  121.18874 |  18.84283 |           STD,TELLURIC |  default | 0.9x11JH |     1,1 | 60028.06701658 |   1.428 |     6.0 | NIR |      -2.5 |     0 |      12 |     -1
+     XSHOO.2023-03-25T09:00:46.709.fits |         science | 296.848516 | -46.07566 |             GRB230325A |  default | 0.9x11JH |     1,1 | 60028.37554061 |   1.414 |   300.0 | NIR |  2.678116 |     0 |      15 |     -1
+     XSHOO.2023-03-25T09:05:54.196.fits |         science | 296.848516 | -46.07566 |             GRB230325A |  default | 0.9x11JH |     1,1 | 60028.37909949 |   1.393 |   300.0 | NIR |  2.678116 |     0 |      16 |     -1
+     XSHOO.2023-03-25T09:12:32.132.fits |         science | 296.850629 | -46.07585 |             GRB230325A |  default | 0.9x11JH |     1,1 | 60028.38370523 |   1.367 |   300.0 | NIR | -2.646473 |     0 |      19 |     -1
+     XSHOO.2023-03-25T09:17:40.284.fits |         science | 296.850629 | -46.07585 |             GRB230325A |  default | 0.9x11JH |     1,1 |  60028.3872718 |   1.348 |   300.0 | NIR | -2.646473 |     0 |      20 |     -1
+     XSHOO.2023-03-23T10:54:02.152.fits |             sky |       None |      None |                   DARK |  default |    Blind |     1,1 | 60026.45419157 |    None |   300.0 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T10:59:09.645.fits |             sky |       None |      None |                   DARK |  default |    Blind |     1,1 | 60026.45775052 |    None |   300.0 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T11:04:17.132.fits |             sky |       None |      None |                   DARK |  default |    Blind |     1,1 |  60026.4613094 |    None |   300.0 | NIR |      None |     0 |      -1 |     -1
+     XSHOO.2023-03-23T09:07:53.083.fits |        standard | 245.891635 | -39.22906 |               STD,FLUX |  default |   5.0x11 |     1,1 |  60026.3804755 |   1.034 |   120.0 | NIR |       2.5 |     0 |       3 |     -1
+     XSHOO.2023-03-23T09:12:13.991.fits |        standard | 245.891621 | -39.23045 |               STD,FLUX |  default |   5.0x11 |     1,1 | 60026.38349527 |   1.034 |   120.0 | NIR |      -2.5 |     0 |       6 |     -1
+data end
+
