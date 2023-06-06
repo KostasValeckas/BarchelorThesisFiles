@@ -38,8 +38,8 @@ SEP_CONST = 2E-17
 
 plt.figure(figsize=(16,12))
 plt.ylim(-1E-16,0.23E-15)
-plt.xlabel("Observed Wavelength (Å)",fontsize=12)
-plt.ylabel("Flux (erg/s/cm²/Å))",fontsize=12)
+plt.xlabel("Observed Wavelength (Å)",fontsize=35)
+plt.ylabel("Flux (erg/s/cm²/Å))",fontsize=35)
 
 for i in range(3): 
 	plt.plot(
@@ -52,7 +52,9 @@ for i in range(3):
 		label=(("PypeIt reduction-"+str(SEP_CONST)+"erg/s/cm²/Å") if i < 1 else None)
 		)
 
-for i in plt.legend().get_lines(): i.set_linewidth(2) 
+for i in plt.legend(fontsize=28).get_lines(): i.set_linewidth(2) 
 
+plt.tick_params(length=10, width=4,labelsize=24)
+plt.gca().get_yaxis().get_offset_text().set_size(24)
 plt.savefig("./AT2017compared_glued_tellCorr.png",bbox_inches="tight",facecolor="white")
 plt.show()

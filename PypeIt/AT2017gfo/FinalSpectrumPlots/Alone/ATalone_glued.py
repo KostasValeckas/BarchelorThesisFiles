@@ -22,10 +22,11 @@ specPypeit = np.array([UVBpypeIt[1],VISpypeIt[1],NIRpypeIt[1]], dtype = object)
 
 plt.figure(figsize=(16,12))
 plt.ylim(-1E-16,0.23E-15)
-plt.xlabel("Observed Wavelength (Å)",fontsize=12)
-plt.ylabel("Flux (erg/s/cm²/Å))",fontsize=12)
+plt.xlabel("Observed Wavelength (Å)",fontsize=35)
+plt.ylabel("Flux (erg/s/cm²/Å))",fontsize=35)
 
 for i in range(3): plt.plot(wavePypeit[i], specPypeit[i], color="k",lw=0.2, )
-
+plt.tick_params(length=10, width=4,labelsize=24)
+plt.gca().get_yaxis().get_offset_text().set_size(24)
 plt.savefig("./ATalone_glued.png",bbox_inches="tight",facecolor="white")
 plt.show()
