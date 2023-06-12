@@ -4,4 +4,4 @@ The files in 'PyReduce altered files' directory are to be substituted with the '
 invoking files from the 'PyReduce_AT2017gfo' directory - as the files there are built upon using 'PyReduce altered files'
 as a base. 
 
-rebinner.py is a tool used for manually rebinning files when needed (the rebinned files are provided in the MODE/ReBinnedData directories)
+rebinner.py is a tool used for manually rebinning files when needed, provided by Johan Peter Uldall Fynbo (NBI)  (the rebinned files are provided in the MODE/ReBinnedData directories)
