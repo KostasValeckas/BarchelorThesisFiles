@@ -14,3 +14,5 @@
 │       ├── Masters
 │       ├── Science
 ```
+
+Also, you will need the additional wave calib. files provided in the "AdditionalWaveCalibFiles" directory.
