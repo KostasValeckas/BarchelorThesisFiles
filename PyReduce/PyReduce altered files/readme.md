@@ -2,4 +2,4 @@ These are the 'PyReduce' files that have been altered, and deviate from the stan
 
 These files have been helpfully provided by Patrick Dorval, UU (https://www.katalog.uu.se/empinfo/?id=N22-2509)
 
-These files were used to replaced the 'pip' distributed files, before any further alternations were was done.
+These files were used to replaced the 'pip' distributed files, before any further alternations were done.
